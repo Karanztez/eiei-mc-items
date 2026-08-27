@@ -2,6 +2,6 @@
 
 Updated 2026-08-27
 
-- 220 mapped items
-- 0 wiki files scanned
-- 35 local icons
+- 6122 mapped items
+- 7986 wiki files scanned
+- 6121 local icons downloaded
