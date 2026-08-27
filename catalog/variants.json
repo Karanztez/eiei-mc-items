@@ -1,0 +1,19 @@
+{
+  "woods": ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "pale_oak", "bamboo"],
+  "colors": ["white", "light_gray", "gray", "black", "brown", "red", "orange", "yellow", "lime", "green", "cyan", "light_blue", "blue", "purple", "magenta", "pink"],
+  "families": {
+    "boat": { "page": "Boat", "pattern": "{wood}_boat", "title": "{Wood} Boat", "skip": ["bamboo", "pale_oak"], "extra": { "bamboo": { "id": "bamboo_raft", "title": "Bamboo Raft" }, "pale_oak": { "id": "pale_oak_boat", "title": "Pale Oak Boat" } } },
+    "chest_boat": { "page": "Boat", "pattern": "{wood}_chest_boat", "title": "{Wood} Boat with Chest", "skip": ["bamboo"], "extra": { "bamboo": { "id": "bamboo_chest_raft", "title": "Bamboo Raft with Chest" } } },
+    "wool": { "page": "Wool", "pattern": "{color}_wool", "title": "{Color} Wool" },
+    "carpet": { "page": "Carpet", "pattern": "{color}_carpet", "title": "{Color} Carpet" },
+    "bed": { "page": "Bed", "pattern": "{color}_bed", "title": "{Color} Bed" },
+    "concrete": { "page": "Concrete", "pattern": "{color}_concrete", "title": "{Color} Concrete" },
+    "concrete_powder": { "page": "Concrete Powder", "pattern": "{color}_concrete_powder", "title": "{Color} Concrete Powder" },
+    "terracotta": { "page": "Terracotta", "pattern": "{color}_terracotta", "title": "{Color} Terracotta" },
+    "stained_glass": { "page": "Stained Glass", "pattern": "{color}_stained_glass", "title": "{Color} Stained Glass" },
+    "shulker_box": { "page": "Shulker Box", "pattern": "{color}_shulker_box", "title": "{Color} Shulker Box" },
+    "dye": { "page": "Dye", "pattern": "{color}_dye", "title": "{Color} Dye" },
+    "candle": { "page": "Candle", "pattern": "{color}_candle", "title": "{Color} Candle" },
+    "banner": { "page": "Banner", "pattern": "{color}_banner", "title": "{Color} Banner" }
+  }
+}

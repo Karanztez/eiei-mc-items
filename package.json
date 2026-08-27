@@ -1,0 +1,10 @@
+{
+  "name": "eiei-mc-items",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minecraft Wiki item icon catalog for eiei.love",
+  "scripts": {
+    "sync": "node scripts/sync-wiki-items.mjs"
+  },
+  "license": "CC-BY-NC-SA-3.0"
+}
