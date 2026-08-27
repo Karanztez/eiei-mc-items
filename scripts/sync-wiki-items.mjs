@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
  * Pull inventory icons, item list, crop stages, and variants from minecraft.wiki
- * and keep catalog/items.json and icons/ updated.
+ * and keep catalog/items.json and categorized icons/ subfolders updated.
  *
  * Source of truth: https://minecraft.wiki/w/Item, Category:InvSprite files,
  * Category:Item icons, Category:Block icons, and item page state variations.
  */
-import { mkdirSync, writeFileSync, readFileSync, existsSync, statSync } from "node:fs";
+import { mkdirSync, writeFileSync, readFileSync, existsSync, statSync, readdirSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -40,6 +40,44 @@ function cleanTitle(rawName) {
     .replace(/\.(png|gif|webp)$/i, "")
     .replace(/_/g, " ")
     .trim();
+}
+
+function detectCategory(id, rawTitle, inviconName, family, source) {
+  const title = (rawTitle || "").toLowerCase();
+  const invicon = (inviconName || "").toLowerCase();
+
+  // Damaged items belong to equipment, armor, or items
+  if (id.startsWith("damaged_")) {
+    if (id.includes("armor") || id.includes("helmet") || id.includes("chestplate") || id.includes("leggings") || id.includes("boots") || id.includes("cap") || id.includes("pants") || id.includes("tunic")) return "armor_trims";
+    if (id.includes("sword") || id.includes("pickaxe") || id.includes("axe") || id.includes("shovel") || id.includes("hoe") || id.includes("bow") || id.includes("crossbow") || id.includes("spear") || id.includes("shield") || id.includes("rod") || id.includes("shear") || id.includes("mace") || id.includes("trident") || id.includes("brush")) return "tools_weapons";
+    return "items";
+  }
+
+  if (id.includes("banner") || id.includes("pattern")) return "banners";
+  if (id.includes("spawn_egg")) return "spawn_eggs";
+
+  if (/(_|^)age(_|\d|$)/i.test(id) || id.includes("crop") || id.includes("stage") || id.includes("stem") || id.includes("sprout") || id.includes("plant") || id.includes("flower") || id.includes("leaves") || id.includes("sapling")) {
+    return "crops";
+  }
+
+  if (id.includes("potion") || id.includes("arrow_of") || id.includes("dye") || id.includes("balloon") || id.includes("beaker") || id.includes("flask") || id.includes("jar") || id.includes("element")) return "potions_dyes";
+  if (id.includes("trim") || id.includes("template") || id.includes("armor") || id.includes("helmet") || id.includes("chestplate") || id.includes("leggings") || id.includes("boots")) return "armor_trims";
+  if (id.includes("sword") || id.includes("pickaxe") || id.includes("axe") || id.includes("shovel") || id.includes("hoe") || id.includes("bow") || id.includes("crossbow") || id.includes("spear") || id.includes("shield") || id.includes("rod") || id.includes("shear")) return "tools_weapons";
+  if (id.includes("map") || id.includes("book") || id.includes("disc") || id.includes("record")) return "maps_books";
+  if (id.includes("block") || id.includes("planks") || id.includes("log") || id.includes("stone") || id.includes("brick") || id.includes("slab") || id.includes("stairs") || id.includes("door") || id.includes("gate") || id.includes("trapdoor") || id.includes("button") || id.includes("plate") || id.includes("wall") || id.includes("fence") || invicon.includes("blocksprite") || title.includes("(block)")) return "blocks";
+  if (family || source === "variant-family") return "variants";
+
+  if (id.includes("raw_") || id.includes("cooked_") || id.includes("beef") || id.includes("pork") || id.includes("chicken") || id.includes("mutton") || id.includes("rabbit") || id.includes("fish") || id.includes("apple") || id.includes("bread") || id.includes("cookie") || id.includes("pie") || id.includes("stew") || id.includes("soup") || id.includes("cake") || id.includes("golden_") || id.includes("berry") || id.includes("slice") || id.includes("carrot") || id.includes("potato")) {
+    return "food";
+  }
+  if (id.includes("ingot") || id.includes("nugget") || id.includes("ore") || id.includes("raw_") || id.includes("diamond") || id.includes("emerald") || id.includes("amethyst") || id.includes("quartz") || id.includes("coal") || id.includes("redstone") || id.includes("lapis") || id.includes("copper") || id.includes("gold") || id.includes("iron") || id.includes("netherite")) {
+    return "materials";
+  }
+  if (/_(je\d|be\d|lce|revision_\d|legacy)$/i.test(id) || id.includes("revision") || id.includes("legacy")) {
+    return "editions";
+  }
+
+  return "items";
 }
 
 async function wiki(params) {
@@ -94,7 +132,6 @@ async function getItemPageImagesAndLinks() {
   const images = new Set();
   const links = new Set();
 
-  // Parse Item page main sections (Lists of items sections 4 through 16)
   for (let sec = 4; sec <= 16; sec++) {
     try {
       const data = await wiki({
@@ -198,7 +235,7 @@ async function downloadIcon(fileName, dest, retries = 4) {
 }
 
 async function downloadBatch(itemsToDownload, rootDir, concurrency = 15) {
-  console.log(`Downloading ${itemsToDownload.length} icons with concurrency ${concurrency}...`);
+  console.log(`Downloading ${itemsToDownload.length} icons into subfolders with concurrency ${concurrency}...`);
   let completed = 0;
   let saved = 0;
 
@@ -206,7 +243,8 @@ async function downloadBatch(itemsToDownload, rootDir, concurrency = 15) {
     const chunk = itemsToDownload.slice(i, i + concurrency);
     const results = await Promise.all(
       chunk.map(async (item) => {
-        const ok = await downloadIcon(item.invicon, join(rootDir, "icons", `${item.id}.png`));
+        const dest = join(rootDir, "icons", item.category, `${item.id}.png`);
+        const ok = await downloadIcon(item.invicon, dest);
         return { item, ok };
       })
     );
@@ -214,12 +252,12 @@ async function downloadBatch(itemsToDownload, rootDir, concurrency = 15) {
     for (const r of results) {
       completed++;
       if (r.ok) {
-        r.item.local = `icons/${r.item.id}.png`;
+        r.item.local = `icons/${r.item.category}/${r.item.id}.png`;
         saved++;
       }
     }
 
-    if (completed % 200 === 0 || completed === itemsToDownload.length) {
+    if (completed % 300 === 0 || completed === itemsToDownload.length) {
       console.log(`Progress: ${completed}/${itemsToDownload.length} processed (${saved} saved)`);
     }
   }
@@ -275,22 +313,29 @@ async function main() {
     if (!id || id.length < 2) continue;
 
     const fileName = raw.replace(/ /g, "_");
+    const category = detectCategory(id, raw, fileName, null, "wiki-discovery");
+
     if (!items[id]) {
       items[id] = {
         title: cleanTitle(raw),
         invicon: fileName,
+        category,
         page: `https://minecraft.wiki/w/${encodeURIComponent(slug(raw))}`,
         source: "wiki-discovery",
       };
+    } else {
+      items[id].category = category;
     }
   }
 
   // Map variants (wood, boat, wool, bed, dye, etc.)
   for (const row of expandVariants(variants)) {
+    const category = detectCategory(row.id, row.title, row.invicon, row.family, "variant-family");
     items[row.id] = {
       ...(items[row.id] || {}),
       title: row.title,
       invicon: row.invicon,
+      category,
       page: row.page,
       family: row.family,
       variant: row.variant,
@@ -298,14 +343,36 @@ async function main() {
     };
   }
 
+  // Ensure all items have a valid category
+  for (const [id, item] of Object.entries(items)) {
+    if (!item.category) {
+      item.category = detectCategory(id, item.title, item.invicon, item.family, item.source);
+    }
+  }
+
   console.log(`\nTotal items mapped in catalog: ${Object.keys(items).length}`);
 
   // Prepare items for downloading
   const itemsList = Object.entries(items).map(([id, data]) => ({ id, ...data }));
-  mkdirSync(join(ROOT, "icons"), { recursive: true });
+  
+  // Create category subfolders
+  const categoriesSet = new Set(itemsList.map(i => i.category).filter(Boolean));
+  for (const cat of categoriesSet) {
+    mkdirSync(join(ROOT, "icons", cat), { recursive: true });
+  }
+
+  // Clean up any loose files directly under root `icons/` folder (moving them to subfolder if needed)
+  try {
+    const rootFiles = readdirSync(join(ROOT, "icons"), { withFileTypes: true });
+    for (const entry of rootFiles) {
+      if (entry.isFile() && entry.name.endsWith(".png")) {
+        rmSync(join(ROOT, "icons", entry.name), { force: true });
+      }
+    }
+  } catch {}
 
   // Download Pass 1
-  let savedCount = await downloadBatch(itemsList, ROOT, 12);
+  let savedCount = await downloadBatch(itemsList, ROOT, 16);
 
   // Download Pass 2: Retry pass for any missing downloads
   const missingItems = itemsList.filter(item => !item.local || !existsSync(join(ROOT, item.local)));
@@ -317,11 +384,13 @@ async function main() {
 
   // Update items map with local paths
   let finalSavedOnDisk = 0;
+  const categoryCounts = {};
   for (const item of itemsList) {
-    const localPath = `icons/${item.id}.png`;
+    const localPath = `icons/${item.category}/${item.id}.png`;
     if (existsSync(join(ROOT, localPath))) {
       items[item.id].local = localPath;
       finalSavedOnDisk++;
+      categoryCounts[item.category] = (categoryCounts[item.category] || 0) + 1;
     } else {
       delete items[item.id].local;
     }
@@ -335,17 +404,23 @@ async function main() {
       catalog: Object.keys(items).length,
       wikiFilesScanned: allRawFiles.length,
       downloaded: finalSavedOnDisk,
+      byCategory: categoryCounts,
     },
     items,
   };
 
   writeFileSync(prevPath, JSON.stringify(catalog, null, 2) + "\n");
+  
+  const categorySummaryLines = Object.entries(categoryCounts)
+    .map(([cat, count]) => `  - \`icons/${cat}/\`: ${count} icons`)
+    .join("\n");
+
   writeFileSync(
     join(ROOT, "catalog/index.md"),
-    `# Item catalog\n\nUpdated ${catalog.updatedAt}\n\n- ${catalog.counts.catalog} mapped items\n- ${catalog.counts.wikiFilesScanned} wiki files scanned\n- ${catalog.counts.downloaded} local icons downloaded\n`
+    `# Item catalog\n\nUpdated ${catalog.updatedAt}\n\n- ${catalog.counts.catalog} mapped items\n- ${catalog.counts.wikiFilesScanned} wiki files scanned\n- ${catalog.counts.downloaded} local icons downloaded across subfolders:\n${categorySummaryLines}\n`
   );
 
-  console.log("\nCatalog Sync Finished Successfully!");
+  console.log("\nCatalog Sync & Subfolder Categorization Finished Successfully!");
   console.log(catalog.counts);
 }
 
