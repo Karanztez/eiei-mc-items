@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Pull inventory icons, item list, crop stages, and variants from minecraft.wiki
+ * Pull inventory icons, item list, crop stages, variants, and animated GIF/WEBP icons from minecraft.wiki
  * and keep catalog/items.json and categorized icons/ subfolders updated.
  *
  * Source of truth: https://minecraft.wiki/w/Item, Category:InvSprite files,
@@ -40,6 +40,11 @@ function cleanTitle(rawName) {
     .replace(/\.(png|gif|webp)$/i, "")
     .replace(/_/g, " ")
     .trim();
+}
+
+function getExtension(fileName) {
+  const match = String(fileName || "").match(/\.(png|gif|webp)$/i);
+  return match ? match[0].toLowerCase() : ".png";
 }
 
 function detectCategory(id, rawTitle, inviconName, family, source) {
@@ -234,7 +239,7 @@ async function downloadIcon(fileName, dest, retries = 4) {
   return false;
 }
 
-async function downloadBatch(itemsToDownload, rootDir, concurrency = 15) {
+async function downloadBatch(itemsToDownload, rootDir, concurrency = 16) {
   console.log(`Downloading ${itemsToDownload.length} icons into subfolders with concurrency ${concurrency}...`);
   let completed = 0;
   let saved = 0;
@@ -243,16 +248,26 @@ async function downloadBatch(itemsToDownload, rootDir, concurrency = 15) {
     const chunk = itemsToDownload.slice(i, i + concurrency);
     const results = await Promise.all(
       chunk.map(async (item) => {
-        const dest = join(rootDir, "icons", item.category, `${item.id}.png`);
+        const ext = item.ext || getExtension(item.invicon);
+        const dest = join(rootDir, "icons", item.category, `${item.id}${ext}`);
+
+        // Clean up old .png file if icon extension updated to .gif or .webp
+        if (ext !== ".png") {
+          const oldPng = join(rootDir, "icons", item.category, `${item.id}.png`);
+          if (existsSync(oldPng)) {
+            try { rmSync(oldPng, { force: true }); } catch {}
+          }
+        }
+
         const ok = await downloadIcon(item.invicon, dest);
-        return { item, ok };
+        return { item, ext, ok };
       })
     );
 
     for (const r of results) {
       completed++;
       if (r.ok) {
-        r.item.local = `icons/${r.item.category}/${r.item.id}.png`;
+        r.item.local = `icons/${r.item.category}/${r.item.id}${r.ext}`;
         saved++;
       }
     }
@@ -278,7 +293,7 @@ async function main() {
   const { images: itemPageImages, links: itemPageLinks } = await getItemPageImagesAndLinks();
   console.log(`Item page section images: ${itemPageImages.length}, links: ${itemPageLinks.length}`);
 
-  console.log("\n=== Step 3: Searching crop growth stages and item state files ===");
+  console.log("\n=== Step 3: Searching crop growth stages, item state files & animated GIFs ===");
   const cropSearchTerms = [
     "Pitcher Crop Age", "Wheat Age", "Torchflower Age", "Torchflower Crop",
     "Sweet Berry Bush Age", "Beetroots Age", "Carrots Age", "Potatoes Age",
@@ -305,7 +320,7 @@ async function main() {
   for (const fileTitle of allRawFiles) {
     const raw = fileTitle.replace(/^File:/i, "");
     
-    // Ignore non-icon generic files
+    // Ignore non-icon generic files (allow .gif and .webp!)
     if (/\.(svg|jpeg|jpg|ogg|wav)$/i.test(raw)) continue;
     if (/^(Disambig|Comment|Search_|AchievementSprite|Advancement|EntitySprite|EnvSprite)/i.test(raw)) continue;
 
@@ -313,28 +328,33 @@ async function main() {
     if (!id || id.length < 2) continue;
 
     const fileName = raw.replace(/ /g, "_");
+    const ext = getExtension(fileName);
     const category = detectCategory(id, raw, fileName, null, "wiki-discovery");
 
-    if (!items[id]) {
+    if (!items[id] || (items[id].ext === ".png" && (ext === ".gif" || ext === ".webp"))) {
       items[id] = {
         title: cleanTitle(raw),
         invicon: fileName,
+        ext,
         category,
         page: `https://minecraft.wiki/w/${encodeURIComponent(slug(raw))}`,
         source: "wiki-discovery",
       };
     } else {
+      if (!items[id].ext) items[id].ext = ext;
       items[id].category = category;
     }
   }
 
   // Map variants (wood, boat, wool, bed, dye, etc.)
   for (const row of expandVariants(variants)) {
+    const ext = getExtension(row.invicon);
     const category = detectCategory(row.id, row.title, row.invicon, row.family, "variant-family");
     items[row.id] = {
       ...(items[row.id] || {}),
       title: row.title,
       invicon: row.invicon,
+      ext,
       category,
       page: row.page,
       family: row.family,
@@ -343,8 +363,9 @@ async function main() {
     };
   }
 
-  // Ensure all items have a valid category
+  // Ensure all items have valid category and ext
   for (const [id, item] of Object.entries(items)) {
+    if (!item.ext) item.ext = getExtension(item.invicon);
     if (!item.category) {
       item.category = detectCategory(id, item.title, item.invicon, item.family, item.source);
     }
@@ -361,11 +382,11 @@ async function main() {
     mkdirSync(join(ROOT, "icons", cat), { recursive: true });
   }
 
-  // Clean up any loose files directly under root `icons/` folder (moving them to subfolder if needed)
+  // Clean up any loose files directly under root `icons/` folder
   try {
     const rootFiles = readdirSync(join(ROOT, "icons"), { withFileTypes: true });
     for (const entry of rootFiles) {
-      if (entry.isFile() && entry.name.endsWith(".png")) {
+      if (entry.isFile() && /\.(png|gif|webp)$/i.test(entry.name)) {
         rmSync(join(ROOT, "icons", entry.name), { force: true });
       }
     }
@@ -375,22 +396,32 @@ async function main() {
   let savedCount = await downloadBatch(itemsList, ROOT, 16);
 
   // Download Pass 2: Retry pass for any missing downloads
-  const missingItems = itemsList.filter(item => !item.local || !existsSync(join(ROOT, item.local)));
+  const missingItems = itemsList.filter(item => {
+    const ext = item.ext || getExtension(item.invicon);
+    return !item.local || !existsSync(join(ROOT, `icons/${item.category}/${item.id}${ext}`));
+  });
+
   if (missingItems.length > 0) {
     console.log(`\n=== Retry Pass: Retrying ${missingItems.length} missing icons ===`);
     const retrySaved = await downloadBatch(missingItems, ROOT, 8);
     savedCount += retrySaved;
   }
 
-  // Update items map with local paths
+  // Update items map with local paths and format counts
   let finalSavedOnDisk = 0;
+  let gifCount = 0;
+  let webpCount = 0;
   const categoryCounts = {};
+
   for (const item of itemsList) {
-    const localPath = `icons/${item.category}/${item.id}.png`;
+    const ext = item.ext || getExtension(item.invicon);
+    const localPath = `icons/${item.category}/${item.id}${ext}`;
     if (existsSync(join(ROOT, localPath))) {
       items[item.id].local = localPath;
       finalSavedOnDisk++;
       categoryCounts[item.category] = (categoryCounts[item.category] || 0) + 1;
+      if (ext === ".gif") gifCount++;
+      if (ext === ".webp") webpCount++;
     } else {
       delete items[item.id].local;
     }
@@ -404,6 +435,8 @@ async function main() {
       catalog: Object.keys(items).length,
       wikiFilesScanned: allRawFiles.length,
       downloaded: finalSavedOnDisk,
+      animatedGifs: gifCount,
+      webpImages: webpCount,
       byCategory: categoryCounts,
     },
     items,
@@ -417,10 +450,10 @@ async function main() {
 
   writeFileSync(
     join(ROOT, "catalog/index.md"),
-    `# Item catalog\n\nUpdated ${catalog.updatedAt}\n\n- ${catalog.counts.catalog} mapped items\n- ${catalog.counts.wikiFilesScanned} wiki files scanned\n- ${catalog.counts.downloaded} local icons downloaded across subfolders:\n${categorySummaryLines}\n`
+    `# Item catalog\n\nUpdated ${catalog.updatedAt}\n\n- ${catalog.counts.catalog} mapped items\n- ${catalog.counts.wikiFilesScanned} wiki files scanned\n- ${catalog.counts.downloaded} local icons downloaded (${gifCount} animated GIFs, ${webpCount} WEBP)\n- Subfolders:\n${categorySummaryLines}\n`
   );
 
-  console.log("\nCatalog Sync & Subfolder Categorization Finished Successfully!");
+  console.log("\nCatalog Sync & GIF/WEBP Asset Processing Finished Successfully!");
   console.log(catalog.counts);
 }
 

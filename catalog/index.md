@@ -4,7 +4,8 @@ Updated 2026-08-27
 
 - 6122 mapped items
 - 7986 wiki files scanned
-- 6121 local icons downloaded across subfolders:
+- 6121 local icons downloaded (111 animated GIFs, 2 WEBP)
+- Subfolders:
   - `icons/materials/`: 191 icons
   - `icons/tools_weapons/`: 309 icons
   - `icons/armor_trims/`: 575 icons
