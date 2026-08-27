@@ -2,35 +2,1734 @@
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
   "updatedAt": "2026-08-27",
-  "note": "Primary icons are wiki Invicon files. Local copies land in /icons after npm run sync.",
+  "counts": {
+    "catalog": 220,
+    "wikiFiles": 0,
+    "downloaded": 35
+  },
   "items": {
-    "diamond": { "title": "Diamond", "invicon": "Invicon_Diamond.png", "page": "https://minecraft.wiki/w/Diamond" },
-    "emerald": { "title": "Emerald", "invicon": "Invicon_Emerald.png", "page": "https://minecraft.wiki/w/Emerald" },
-    "netherite_ingot": { "title": "Netherite Ingot", "invicon": "Invicon_Netherite_Ingot.png", "page": "https://minecraft.wiki/w/Netherite_Ingot" },
-    "netherite_sword": { "title": "Netherite Sword", "invicon": "Invicon_Netherite_Sword.png", "page": "https://minecraft.wiki/w/Netherite_Sword" },
-    "netherite_pickaxe": { "title": "Netherite Pickaxe", "invicon": "Invicon_Netherite_Pickaxe.png", "page": "https://minecraft.wiki/w/Netherite_Pickaxe" },
-    "netherite_chestplate": { "title": "Netherite Chestplate", "invicon": "Invicon_Netherite_Chestplate.png", "page": "https://minecraft.wiki/w/Netherite_Chestplate" },
-    "netherite_helmet": { "title": "Netherite Helmet", "invicon": "Invicon_Netherite_Helmet.png", "page": "https://minecraft.wiki/w/Netherite_Helmet" },
-    "netherite_leggings": { "title": "Netherite Leggings", "invicon": "Invicon_Netherite_Leggings.png", "page": "https://minecraft.wiki/w/Netherite_Leggings" },
-    "netherite_boots": { "title": "Netherite Boots", "invicon": "Invicon_Netherite_Boots.png", "page": "https://minecraft.wiki/w/Netherite_Boots" },
-    "enchanted_golden_apple": { "title": "Enchanted Golden Apple", "invicon": "Invicon_Enchanted_Golden_Apple.gif", "page": "https://minecraft.wiki/w/Enchanted_Golden_Apple" },
-    "golden_apple": { "title": "Golden Apple", "invicon": "Invicon_Golden_Apple.png", "page": "https://minecraft.wiki/w/Golden_Apple" },
-    "totem_of_undying": { "title": "Totem of Undying", "invicon": "Invicon_Totem_of_Undying.png", "page": "https://minecraft.wiki/w/Totem_of_Undying" },
-    "elytra": { "title": "Elytra", "invicon": "Invicon_Elytra.png", "page": "https://minecraft.wiki/w/Elytra" },
-    "nether_star": { "title": "Nether Star", "invicon": "Invicon_Nether_Star.png", "page": "https://minecraft.wiki/w/Nether_Star" },
-    "beacon": { "title": "Beacon", "invicon": "Invicon_Beacon.png", "page": "https://minecraft.wiki/w/Beacon" },
-    "shulker_box": { "title": "Shulker Box", "invicon": "Invicon_Shulker_Box.png", "page": "https://minecraft.wiki/w/Shulker_Box" },
-    "ender_chest": { "title": "Ender Chest", "invicon": "Invicon_Ender_Chest.png", "page": "https://minecraft.wiki/w/Ender_Chest" },
-    "trident": { "title": "Trident", "invicon": "Invicon_Trident.png", "page": "https://minecraft.wiki/w/Trident" },
-    "diamond_block": { "title": "Block of Diamond", "invicon": "Invicon_Block_of_Diamond.png", "page": "https://minecraft.wiki/w/Block_of_Diamond" },
-    "gold_block": { "title": "Block of Gold", "invicon": "Invicon_Block_of_Gold.png", "page": "https://minecraft.wiki/w/Block_of_Gold" },
-    "iron_block": { "title": "Block of Iron", "invicon": "Invicon_Block_of_Iron.png", "page": "https://minecraft.wiki/w/Block_of_Iron" },
-    "end_crystal": { "title": "End Crystal", "invicon": "Invicon_End_Crystal.png", "page": "https://minecraft.wiki/w/End_Crystal" },
-    "experience_bottle": { "title": "Bottle o' Enchanting", "invicon": "Invicon_Bottle_o%27_Enchanting.png", "page": "https://minecraft.wiki/w/Bottle_o%27_Enchanting" },
-    "saddle": { "title": "Saddle", "invicon": "Invicon_Saddle.png", "page": "https://minecraft.wiki/w/Saddle" },
-    "oak_boat": { "title": "Oak Boat", "invicon": "Invicon_Oak_Boat.png", "page": "https://minecraft.wiki/w/Boat#Oak", "family": "boat", "variant": "oak" },
-    "spruce_boat": { "title": "Spruce Boat", "invicon": "Invicon_Spruce_Boat.png", "page": "https://minecraft.wiki/w/Boat#Spruce", "family": "boat", "variant": "spruce" },
-    "birch_boat": { "title": "Birch Boat", "invicon": "Invicon_Birch_Boat.png", "page": "https://minecraft.wiki/w/Boat#Birch", "family": "boat", "variant": "birch" },
-    "red_wool": { "title": "Red Wool", "invicon": "Invicon_Red_Wool.png", "page": "https://minecraft.wiki/w/Wool#Red", "family": "wool", "variant": "red" }
+    "diamond": {
+      "title": "Diamond",
+      "invicon": "Invicon_Diamond.png",
+      "page": "https://minecraft.wiki/w/Diamond",
+      "local": "icons/diamond.png"
+    },
+    "emerald": {
+      "title": "Emerald",
+      "invicon": "Invicon_Emerald.png",
+      "page": "https://minecraft.wiki/w/Emerald",
+      "local": "icons/emerald.png"
+    },
+    "netherite_ingot": {
+      "title": "Netherite Ingot",
+      "invicon": "Invicon_Netherite_Ingot.png",
+      "page": "https://minecraft.wiki/w/Netherite_Ingot",
+      "local": "icons/netherite_ingot.png"
+    },
+    "netherite_sword": {
+      "title": "Netherite Sword",
+      "invicon": "Invicon_Netherite_Sword.png",
+      "page": "https://minecraft.wiki/w/Netherite_Sword",
+      "local": "icons/netherite_sword.png"
+    },
+    "netherite_pickaxe": {
+      "title": "Netherite Pickaxe",
+      "invicon": "Invicon_Netherite_Pickaxe.png",
+      "page": "https://minecraft.wiki/w/Netherite_Pickaxe",
+      "local": "icons/netherite_pickaxe.png"
+    },
+    "netherite_chestplate": {
+      "title": "Netherite Chestplate",
+      "invicon": "Invicon_Netherite_Chestplate.png",
+      "page": "https://minecraft.wiki/w/Netherite_Chestplate",
+      "local": "icons/netherite_chestplate.png"
+    },
+    "netherite_helmet": {
+      "title": "Netherite Helmet",
+      "invicon": "Invicon_Netherite_Helmet.png",
+      "page": "https://minecraft.wiki/w/Netherite_Helmet"
+    },
+    "netherite_leggings": {
+      "title": "Netherite Leggings",
+      "invicon": "Invicon_Netherite_Leggings.png",
+      "page": "https://minecraft.wiki/w/Netherite_Leggings"
+    },
+    "netherite_boots": {
+      "title": "Netherite Boots",
+      "invicon": "Invicon_Netherite_Boots.png",
+      "page": "https://minecraft.wiki/w/Netherite_Boots"
+    },
+    "enchanted_golden_apple": {
+      "title": "Enchanted Golden Apple",
+      "invicon": "Invicon_Enchanted_Golden_Apple.gif",
+      "page": "https://minecraft.wiki/w/Enchanted_Golden_Apple"
+    },
+    "golden_apple": {
+      "title": "Golden Apple",
+      "invicon": "Invicon_Golden_Apple.png",
+      "page": "https://minecraft.wiki/w/Golden_Apple"
+    },
+    "totem_of_undying": {
+      "title": "Totem of Undying",
+      "invicon": "Invicon_Totem_of_Undying.png",
+      "page": "https://minecraft.wiki/w/Totem_of_Undying",
+      "local": "icons/totem_of_undying.png"
+    },
+    "elytra": {
+      "title": "Elytra",
+      "invicon": "Invicon_Elytra.png",
+      "page": "https://minecraft.wiki/w/Elytra",
+      "local": "icons/elytra.png"
+    },
+    "nether_star": {
+      "title": "Nether Star",
+      "invicon": "Invicon_Nether_Star.png",
+      "page": "https://minecraft.wiki/w/Nether_Star"
+    },
+    "beacon": {
+      "title": "Beacon",
+      "invicon": "Invicon_Beacon.png",
+      "page": "https://minecraft.wiki/w/Beacon",
+      "local": "icons/beacon.png"
+    },
+    "shulker_box": {
+      "title": "Shulker Box",
+      "invicon": "Invicon_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box"
+    },
+    "ender_chest": {
+      "title": "Ender Chest",
+      "invicon": "Invicon_Ender_Chest.png",
+      "page": "https://minecraft.wiki/w/Ender_Chest"
+    },
+    "trident": {
+      "title": "Trident",
+      "invicon": "Invicon_Trident.png",
+      "page": "https://minecraft.wiki/w/Trident"
+    },
+    "diamond_block": {
+      "title": "Block of Diamond",
+      "invicon": "Invicon_Block_of_Diamond.png",
+      "page": "https://minecraft.wiki/w/Block_of_Diamond"
+    },
+    "gold_block": {
+      "title": "Block of Gold",
+      "invicon": "Invicon_Block_of_Gold.png",
+      "page": "https://minecraft.wiki/w/Block_of_Gold"
+    },
+    "iron_block": {
+      "title": "Block of Iron",
+      "invicon": "Invicon_Block_of_Iron.png",
+      "page": "https://minecraft.wiki/w/Block_of_Iron"
+    },
+    "end_crystal": {
+      "title": "End Crystal",
+      "invicon": "Invicon_End_Crystal.png",
+      "page": "https://minecraft.wiki/w/End_Crystal"
+    },
+    "experience_bottle": {
+      "title": "Bottle o' Enchanting",
+      "invicon": "Invicon_Bottle_o%27_Enchanting.png",
+      "page": "https://minecraft.wiki/w/Bottle_o%27_Enchanting"
+    },
+    "saddle": {
+      "title": "Saddle",
+      "invicon": "Invicon_Saddle.png",
+      "page": "https://minecraft.wiki/w/Saddle"
+    },
+    "oak_boat": {
+      "title": "Oak Boat",
+      "invicon": "Invicon_Oak_Boat.png",
+      "page": "https://minecraft.wiki/w/Boat#Oak",
+      "family": "boat",
+      "variant": "oak",
+      "source": "variant-family",
+      "local": "icons/oak_boat.png"
+    },
+    "spruce_boat": {
+      "title": "Spruce Boat",
+      "invicon": "Invicon_Spruce_Boat.png",
+      "page": "https://minecraft.wiki/w/Boat#Spruce",
+      "family": "boat",
+      "variant": "spruce",
+      "source": "variant-family",
+      "local": "icons/spruce_boat.png"
+    },
+    "birch_boat": {
+      "title": "Birch Boat",
+      "invicon": "Invicon_Birch_Boat.png",
+      "page": "https://minecraft.wiki/w/Boat#Birch",
+      "family": "boat",
+      "variant": "birch",
+      "source": "variant-family",
+      "local": "icons/birch_boat.png"
+    },
+    "red_wool": {
+      "title": "Red Wool",
+      "invicon": "Invicon_Red_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Red",
+      "family": "wool",
+      "variant": "red",
+      "source": "variant-family",
+      "local": "icons/red_wool.png"
+    },
+    "jungle_boat": {
+      "title": "Jungle Boat",
+      "invicon": "Invicon_Jungle_Boat.png",
+      "page": "https://minecraft.wiki/w/Boat#Jungle",
+      "family": "boat",
+      "variant": "jungle",
+      "source": "variant-family",
+      "local": "icons/jungle_boat.png"
+    },
+    "acacia_boat": {
+      "title": "Acacia Boat",
+      "invicon": "Invicon_Acacia_Boat.png",
+      "page": "https://minecraft.wiki/w/Boat#Acacia",
+      "family": "boat",
+      "variant": "acacia",
+      "source": "variant-family",
+      "local": "icons/acacia_boat.png"
+    },
+    "dark_oak_boat": {
+      "title": "Dark Oak Boat",
+      "invicon": "Invicon_Dark_Oak_Boat.png",
+      "page": "https://minecraft.wiki/w/Boat#Dark Oak",
+      "family": "boat",
+      "variant": "dark_oak",
+      "source": "variant-family",
+      "local": "icons/dark_oak_boat.png"
+    },
+    "mangrove_boat": {
+      "title": "Mangrove Boat",
+      "invicon": "Invicon_Mangrove_Boat.png",
+      "page": "https://minecraft.wiki/w/Boat#Mangrove",
+      "family": "boat",
+      "variant": "mangrove",
+      "source": "variant-family",
+      "local": "icons/mangrove_boat.png"
+    },
+    "cherry_boat": {
+      "title": "Cherry Boat",
+      "invicon": "Invicon_Cherry_Boat.png",
+      "page": "https://minecraft.wiki/w/Boat#Cherry",
+      "family": "boat",
+      "variant": "cherry",
+      "source": "variant-family",
+      "local": "icons/cherry_boat.png"
+    },
+    "pale_oak_boat": {
+      "title": "Pale Oak Boat",
+      "invicon": "Invicon_Pale_Oak_Boat.png",
+      "page": "https://minecraft.wiki/w/Boat#Pale",
+      "family": "boat",
+      "variant": "pale_oak",
+      "source": "variant-family",
+      "local": "icons/pale_oak_boat.png"
+    },
+    "bamboo_raft": {
+      "title": "Bamboo Raft",
+      "invicon": "Invicon_Bamboo_Raft.png",
+      "page": "https://minecraft.wiki/w/Boat#Bamboo",
+      "family": "boat",
+      "variant": "bamboo",
+      "source": "variant-family",
+      "local": "icons/bamboo_raft.png"
+    },
+    "oak_chest_boat": {
+      "title": "Oak Boat with Chest",
+      "invicon": "Invicon_Oak_Boat_with_Chest.png",
+      "page": "https://minecraft.wiki/w/Boat#Oak",
+      "family": "chest_boat",
+      "variant": "oak",
+      "source": "variant-family"
+    },
+    "spruce_chest_boat": {
+      "title": "Spruce Boat with Chest",
+      "invicon": "Invicon_Spruce_Boat_with_Chest.png",
+      "page": "https://minecraft.wiki/w/Boat#Spruce",
+      "family": "chest_boat",
+      "variant": "spruce",
+      "source": "variant-family"
+    },
+    "birch_chest_boat": {
+      "title": "Birch Boat with Chest",
+      "invicon": "Invicon_Birch_Boat_with_Chest.png",
+      "page": "https://minecraft.wiki/w/Boat#Birch",
+      "family": "chest_boat",
+      "variant": "birch",
+      "source": "variant-family"
+    },
+    "jungle_chest_boat": {
+      "title": "Jungle Boat with Chest",
+      "invicon": "Invicon_Jungle_Boat_with_Chest.png",
+      "page": "https://minecraft.wiki/w/Boat#Jungle",
+      "family": "chest_boat",
+      "variant": "jungle",
+      "source": "variant-family"
+    },
+    "acacia_chest_boat": {
+      "title": "Acacia Boat with Chest",
+      "invicon": "Invicon_Acacia_Boat_with_Chest.png",
+      "page": "https://minecraft.wiki/w/Boat#Acacia",
+      "family": "chest_boat",
+      "variant": "acacia",
+      "source": "variant-family"
+    },
+    "dark_oak_chest_boat": {
+      "title": "Dark Oak Boat with Chest",
+      "invicon": "Invicon_Dark_Oak_Boat_with_Chest.png",
+      "page": "https://minecraft.wiki/w/Boat#Dark Oak",
+      "family": "chest_boat",
+      "variant": "dark_oak",
+      "source": "variant-family"
+    },
+    "mangrove_chest_boat": {
+      "title": "Mangrove Boat with Chest",
+      "invicon": "Invicon_Mangrove_Boat_with_Chest.png",
+      "page": "https://minecraft.wiki/w/Boat#Mangrove",
+      "family": "chest_boat",
+      "variant": "mangrove",
+      "source": "variant-family"
+    },
+    "cherry_chest_boat": {
+      "title": "Cherry Boat with Chest",
+      "invicon": "Invicon_Cherry_Boat_with_Chest.png",
+      "page": "https://minecraft.wiki/w/Boat#Cherry",
+      "family": "chest_boat",
+      "variant": "cherry",
+      "source": "variant-family"
+    },
+    "pale_oak_chest_boat": {
+      "title": "Pale Oak Boat with Chest",
+      "invicon": "Invicon_Pale_Oak_Boat_with_Chest.png",
+      "page": "https://minecraft.wiki/w/Boat#Pale Oak",
+      "family": "chest_boat",
+      "variant": "pale_oak",
+      "source": "variant-family"
+    },
+    "bamboo_chest_raft": {
+      "title": "Bamboo Raft with Chest",
+      "invicon": "Invicon_Bamboo_Raft_with_Chest.png",
+      "page": "https://minecraft.wiki/w/Boat#Bamboo",
+      "family": "chest_boat",
+      "variant": "bamboo",
+      "source": "variant-family"
+    },
+    "white_wool": {
+      "title": "White Wool",
+      "invicon": "Invicon_White_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#White",
+      "family": "wool",
+      "variant": "white",
+      "source": "variant-family",
+      "local": "icons/white_wool.png"
+    },
+    "light_gray_wool": {
+      "title": "Light Gray Wool",
+      "invicon": "Invicon_Light_Gray_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Light Gray",
+      "family": "wool",
+      "variant": "light_gray",
+      "source": "variant-family",
+      "local": "icons/light_gray_wool.png"
+    },
+    "gray_wool": {
+      "title": "Gray Wool",
+      "invicon": "Invicon_Gray_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Gray",
+      "family": "wool",
+      "variant": "gray",
+      "source": "variant-family",
+      "local": "icons/gray_wool.png"
+    },
+    "black_wool": {
+      "title": "Black Wool",
+      "invicon": "Invicon_Black_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Black",
+      "family": "wool",
+      "variant": "black",
+      "source": "variant-family",
+      "local": "icons/black_wool.png"
+    },
+    "brown_wool": {
+      "title": "Brown Wool",
+      "invicon": "Invicon_Brown_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Brown",
+      "family": "wool",
+      "variant": "brown",
+      "source": "variant-family",
+      "local": "icons/brown_wool.png"
+    },
+    "orange_wool": {
+      "title": "Orange Wool",
+      "invicon": "Invicon_Orange_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Orange",
+      "family": "wool",
+      "variant": "orange",
+      "source": "variant-family",
+      "local": "icons/orange_wool.png"
+    },
+    "yellow_wool": {
+      "title": "Yellow Wool",
+      "invicon": "Invicon_Yellow_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Yellow",
+      "family": "wool",
+      "variant": "yellow",
+      "source": "variant-family",
+      "local": "icons/yellow_wool.png"
+    },
+    "lime_wool": {
+      "title": "Lime Wool",
+      "invicon": "Invicon_Lime_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Lime",
+      "family": "wool",
+      "variant": "lime",
+      "source": "variant-family",
+      "local": "icons/lime_wool.png"
+    },
+    "green_wool": {
+      "title": "Green Wool",
+      "invicon": "Invicon_Green_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Green",
+      "family": "wool",
+      "variant": "green",
+      "source": "variant-family",
+      "local": "icons/green_wool.png"
+    },
+    "cyan_wool": {
+      "title": "Cyan Wool",
+      "invicon": "Invicon_Cyan_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Cyan",
+      "family": "wool",
+      "variant": "cyan",
+      "source": "variant-family",
+      "local": "icons/cyan_wool.png"
+    },
+    "light_blue_wool": {
+      "title": "Light Blue Wool",
+      "invicon": "Invicon_Light_Blue_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Light Blue",
+      "family": "wool",
+      "variant": "light_blue",
+      "source": "variant-family",
+      "local": "icons/light_blue_wool.png"
+    },
+    "blue_wool": {
+      "title": "Blue Wool",
+      "invicon": "Invicon_Blue_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Blue",
+      "family": "wool",
+      "variant": "blue",
+      "source": "variant-family",
+      "local": "icons/blue_wool.png"
+    },
+    "purple_wool": {
+      "title": "Purple Wool",
+      "invicon": "Invicon_Purple_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Purple",
+      "family": "wool",
+      "variant": "purple",
+      "source": "variant-family",
+      "local": "icons/purple_wool.png"
+    },
+    "magenta_wool": {
+      "title": "Magenta Wool",
+      "invicon": "Invicon_Magenta_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Magenta",
+      "family": "wool",
+      "variant": "magenta",
+      "source": "variant-family",
+      "local": "icons/magenta_wool.png"
+    },
+    "pink_wool": {
+      "title": "Pink Wool",
+      "invicon": "Invicon_Pink_Wool.png",
+      "page": "https://minecraft.wiki/w/Wool#Pink",
+      "family": "wool",
+      "variant": "pink",
+      "source": "variant-family",
+      "local": "icons/pink_wool.png"
+    },
+    "white_carpet": {
+      "title": "White Carpet",
+      "invicon": "Invicon_White_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#White",
+      "family": "carpet",
+      "variant": "white",
+      "source": "variant-family"
+    },
+    "light_gray_carpet": {
+      "title": "Light Gray Carpet",
+      "invicon": "Invicon_Light_Gray_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Light Gray",
+      "family": "carpet",
+      "variant": "light_gray",
+      "source": "variant-family"
+    },
+    "gray_carpet": {
+      "title": "Gray Carpet",
+      "invicon": "Invicon_Gray_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Gray",
+      "family": "carpet",
+      "variant": "gray",
+      "source": "variant-family"
+    },
+    "black_carpet": {
+      "title": "Black Carpet",
+      "invicon": "Invicon_Black_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Black",
+      "family": "carpet",
+      "variant": "black",
+      "source": "variant-family"
+    },
+    "brown_carpet": {
+      "title": "Brown Carpet",
+      "invicon": "Invicon_Brown_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Brown",
+      "family": "carpet",
+      "variant": "brown",
+      "source": "variant-family"
+    },
+    "red_carpet": {
+      "title": "Red Carpet",
+      "invicon": "Invicon_Red_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Red",
+      "family": "carpet",
+      "variant": "red",
+      "source": "variant-family"
+    },
+    "orange_carpet": {
+      "title": "Orange Carpet",
+      "invicon": "Invicon_Orange_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Orange",
+      "family": "carpet",
+      "variant": "orange",
+      "source": "variant-family"
+    },
+    "yellow_carpet": {
+      "title": "Yellow Carpet",
+      "invicon": "Invicon_Yellow_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Yellow",
+      "family": "carpet",
+      "variant": "yellow",
+      "source": "variant-family"
+    },
+    "lime_carpet": {
+      "title": "Lime Carpet",
+      "invicon": "Invicon_Lime_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Lime",
+      "family": "carpet",
+      "variant": "lime",
+      "source": "variant-family"
+    },
+    "green_carpet": {
+      "title": "Green Carpet",
+      "invicon": "Invicon_Green_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Green",
+      "family": "carpet",
+      "variant": "green",
+      "source": "variant-family"
+    },
+    "cyan_carpet": {
+      "title": "Cyan Carpet",
+      "invicon": "Invicon_Cyan_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Cyan",
+      "family": "carpet",
+      "variant": "cyan",
+      "source": "variant-family"
+    },
+    "light_blue_carpet": {
+      "title": "Light Blue Carpet",
+      "invicon": "Invicon_Light_Blue_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Light Blue",
+      "family": "carpet",
+      "variant": "light_blue",
+      "source": "variant-family"
+    },
+    "blue_carpet": {
+      "title": "Blue Carpet",
+      "invicon": "Invicon_Blue_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Blue",
+      "family": "carpet",
+      "variant": "blue",
+      "source": "variant-family"
+    },
+    "purple_carpet": {
+      "title": "Purple Carpet",
+      "invicon": "Invicon_Purple_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Purple",
+      "family": "carpet",
+      "variant": "purple",
+      "source": "variant-family"
+    },
+    "magenta_carpet": {
+      "title": "Magenta Carpet",
+      "invicon": "Invicon_Magenta_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Magenta",
+      "family": "carpet",
+      "variant": "magenta",
+      "source": "variant-family"
+    },
+    "pink_carpet": {
+      "title": "Pink Carpet",
+      "invicon": "Invicon_Pink_Carpet.png",
+      "page": "https://minecraft.wiki/w/Carpet#Pink",
+      "family": "carpet",
+      "variant": "pink",
+      "source": "variant-family"
+    },
+    "white_bed": {
+      "title": "White Bed",
+      "invicon": "Invicon_White_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#White",
+      "family": "bed",
+      "variant": "white",
+      "source": "variant-family"
+    },
+    "light_gray_bed": {
+      "title": "Light Gray Bed",
+      "invicon": "Invicon_Light_Gray_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Light Gray",
+      "family": "bed",
+      "variant": "light_gray",
+      "source": "variant-family"
+    },
+    "gray_bed": {
+      "title": "Gray Bed",
+      "invicon": "Invicon_Gray_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Gray",
+      "family": "bed",
+      "variant": "gray",
+      "source": "variant-family"
+    },
+    "black_bed": {
+      "title": "Black Bed",
+      "invicon": "Invicon_Black_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Black",
+      "family": "bed",
+      "variant": "black",
+      "source": "variant-family"
+    },
+    "brown_bed": {
+      "title": "Brown Bed",
+      "invicon": "Invicon_Brown_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Brown",
+      "family": "bed",
+      "variant": "brown",
+      "source": "variant-family"
+    },
+    "red_bed": {
+      "title": "Red Bed",
+      "invicon": "Invicon_Red_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Red",
+      "family": "bed",
+      "variant": "red",
+      "source": "variant-family"
+    },
+    "orange_bed": {
+      "title": "Orange Bed",
+      "invicon": "Invicon_Orange_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Orange",
+      "family": "bed",
+      "variant": "orange",
+      "source": "variant-family"
+    },
+    "yellow_bed": {
+      "title": "Yellow Bed",
+      "invicon": "Invicon_Yellow_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Yellow",
+      "family": "bed",
+      "variant": "yellow",
+      "source": "variant-family"
+    },
+    "lime_bed": {
+      "title": "Lime Bed",
+      "invicon": "Invicon_Lime_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Lime",
+      "family": "bed",
+      "variant": "lime",
+      "source": "variant-family"
+    },
+    "green_bed": {
+      "title": "Green Bed",
+      "invicon": "Invicon_Green_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Green",
+      "family": "bed",
+      "variant": "green",
+      "source": "variant-family"
+    },
+    "cyan_bed": {
+      "title": "Cyan Bed",
+      "invicon": "Invicon_Cyan_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Cyan",
+      "family": "bed",
+      "variant": "cyan",
+      "source": "variant-family"
+    },
+    "light_blue_bed": {
+      "title": "Light Blue Bed",
+      "invicon": "Invicon_Light_Blue_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Light Blue",
+      "family": "bed",
+      "variant": "light_blue",
+      "source": "variant-family"
+    },
+    "blue_bed": {
+      "title": "Blue Bed",
+      "invicon": "Invicon_Blue_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Blue",
+      "family": "bed",
+      "variant": "blue",
+      "source": "variant-family"
+    },
+    "purple_bed": {
+      "title": "Purple Bed",
+      "invicon": "Invicon_Purple_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Purple",
+      "family": "bed",
+      "variant": "purple",
+      "source": "variant-family"
+    },
+    "magenta_bed": {
+      "title": "Magenta Bed",
+      "invicon": "Invicon_Magenta_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Magenta",
+      "family": "bed",
+      "variant": "magenta",
+      "source": "variant-family"
+    },
+    "pink_bed": {
+      "title": "Pink Bed",
+      "invicon": "Invicon_Pink_Bed.png",
+      "page": "https://minecraft.wiki/w/Bed#Pink",
+      "family": "bed",
+      "variant": "pink",
+      "source": "variant-family"
+    },
+    "white_concrete": {
+      "title": "White Concrete",
+      "invicon": "Invicon_White_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#White",
+      "family": "concrete",
+      "variant": "white",
+      "source": "variant-family"
+    },
+    "light_gray_concrete": {
+      "title": "Light Gray Concrete",
+      "invicon": "Invicon_Light_Gray_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Light Gray",
+      "family": "concrete",
+      "variant": "light_gray",
+      "source": "variant-family"
+    },
+    "gray_concrete": {
+      "title": "Gray Concrete",
+      "invicon": "Invicon_Gray_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Gray",
+      "family": "concrete",
+      "variant": "gray",
+      "source": "variant-family"
+    },
+    "black_concrete": {
+      "title": "Black Concrete",
+      "invicon": "Invicon_Black_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Black",
+      "family": "concrete",
+      "variant": "black",
+      "source": "variant-family"
+    },
+    "brown_concrete": {
+      "title": "Brown Concrete",
+      "invicon": "Invicon_Brown_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Brown",
+      "family": "concrete",
+      "variant": "brown",
+      "source": "variant-family"
+    },
+    "red_concrete": {
+      "title": "Red Concrete",
+      "invicon": "Invicon_Red_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Red",
+      "family": "concrete",
+      "variant": "red",
+      "source": "variant-family"
+    },
+    "orange_concrete": {
+      "title": "Orange Concrete",
+      "invicon": "Invicon_Orange_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Orange",
+      "family": "concrete",
+      "variant": "orange",
+      "source": "variant-family"
+    },
+    "yellow_concrete": {
+      "title": "Yellow Concrete",
+      "invicon": "Invicon_Yellow_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Yellow",
+      "family": "concrete",
+      "variant": "yellow",
+      "source": "variant-family"
+    },
+    "lime_concrete": {
+      "title": "Lime Concrete",
+      "invicon": "Invicon_Lime_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Lime",
+      "family": "concrete",
+      "variant": "lime",
+      "source": "variant-family"
+    },
+    "green_concrete": {
+      "title": "Green Concrete",
+      "invicon": "Invicon_Green_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Green",
+      "family": "concrete",
+      "variant": "green",
+      "source": "variant-family"
+    },
+    "cyan_concrete": {
+      "title": "Cyan Concrete",
+      "invicon": "Invicon_Cyan_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Cyan",
+      "family": "concrete",
+      "variant": "cyan",
+      "source": "variant-family"
+    },
+    "light_blue_concrete": {
+      "title": "Light Blue Concrete",
+      "invicon": "Invicon_Light_Blue_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Light Blue",
+      "family": "concrete",
+      "variant": "light_blue",
+      "source": "variant-family"
+    },
+    "blue_concrete": {
+      "title": "Blue Concrete",
+      "invicon": "Invicon_Blue_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Blue",
+      "family": "concrete",
+      "variant": "blue",
+      "source": "variant-family"
+    },
+    "purple_concrete": {
+      "title": "Purple Concrete",
+      "invicon": "Invicon_Purple_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Purple",
+      "family": "concrete",
+      "variant": "purple",
+      "source": "variant-family"
+    },
+    "magenta_concrete": {
+      "title": "Magenta Concrete",
+      "invicon": "Invicon_Magenta_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Magenta",
+      "family": "concrete",
+      "variant": "magenta",
+      "source": "variant-family"
+    },
+    "pink_concrete": {
+      "title": "Pink Concrete",
+      "invicon": "Invicon_Pink_Concrete.png",
+      "page": "https://minecraft.wiki/w/Concrete#Pink",
+      "family": "concrete",
+      "variant": "pink",
+      "source": "variant-family"
+    },
+    "white_concrete_powder": {
+      "title": "White Concrete Powder",
+      "invicon": "Invicon_White_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#White",
+      "family": "concrete_powder",
+      "variant": "white",
+      "source": "variant-family"
+    },
+    "light_gray_concrete_powder": {
+      "title": "Light Gray Concrete Powder",
+      "invicon": "Invicon_Light_Gray_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Light Gray",
+      "family": "concrete_powder",
+      "variant": "light_gray",
+      "source": "variant-family"
+    },
+    "gray_concrete_powder": {
+      "title": "Gray Concrete Powder",
+      "invicon": "Invicon_Gray_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Gray",
+      "family": "concrete_powder",
+      "variant": "gray",
+      "source": "variant-family"
+    },
+    "black_concrete_powder": {
+      "title": "Black Concrete Powder",
+      "invicon": "Invicon_Black_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Black",
+      "family": "concrete_powder",
+      "variant": "black",
+      "source": "variant-family"
+    },
+    "brown_concrete_powder": {
+      "title": "Brown Concrete Powder",
+      "invicon": "Invicon_Brown_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Brown",
+      "family": "concrete_powder",
+      "variant": "brown",
+      "source": "variant-family"
+    },
+    "red_concrete_powder": {
+      "title": "Red Concrete Powder",
+      "invicon": "Invicon_Red_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Red",
+      "family": "concrete_powder",
+      "variant": "red",
+      "source": "variant-family"
+    },
+    "orange_concrete_powder": {
+      "title": "Orange Concrete Powder",
+      "invicon": "Invicon_Orange_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Orange",
+      "family": "concrete_powder",
+      "variant": "orange",
+      "source": "variant-family"
+    },
+    "yellow_concrete_powder": {
+      "title": "Yellow Concrete Powder",
+      "invicon": "Invicon_Yellow_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Yellow",
+      "family": "concrete_powder",
+      "variant": "yellow",
+      "source": "variant-family"
+    },
+    "lime_concrete_powder": {
+      "title": "Lime Concrete Powder",
+      "invicon": "Invicon_Lime_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Lime",
+      "family": "concrete_powder",
+      "variant": "lime",
+      "source": "variant-family"
+    },
+    "green_concrete_powder": {
+      "title": "Green Concrete Powder",
+      "invicon": "Invicon_Green_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Green",
+      "family": "concrete_powder",
+      "variant": "green",
+      "source": "variant-family"
+    },
+    "cyan_concrete_powder": {
+      "title": "Cyan Concrete Powder",
+      "invicon": "Invicon_Cyan_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Cyan",
+      "family": "concrete_powder",
+      "variant": "cyan",
+      "source": "variant-family"
+    },
+    "light_blue_concrete_powder": {
+      "title": "Light Blue Concrete Powder",
+      "invicon": "Invicon_Light_Blue_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Light Blue",
+      "family": "concrete_powder",
+      "variant": "light_blue",
+      "source": "variant-family"
+    },
+    "blue_concrete_powder": {
+      "title": "Blue Concrete Powder",
+      "invicon": "Invicon_Blue_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Blue",
+      "family": "concrete_powder",
+      "variant": "blue",
+      "source": "variant-family"
+    },
+    "purple_concrete_powder": {
+      "title": "Purple Concrete Powder",
+      "invicon": "Invicon_Purple_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Purple",
+      "family": "concrete_powder",
+      "variant": "purple",
+      "source": "variant-family"
+    },
+    "magenta_concrete_powder": {
+      "title": "Magenta Concrete Powder",
+      "invicon": "Invicon_Magenta_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Magenta",
+      "family": "concrete_powder",
+      "variant": "magenta",
+      "source": "variant-family"
+    },
+    "pink_concrete_powder": {
+      "title": "Pink Concrete Powder",
+      "invicon": "Invicon_Pink_Concrete_Powder.png",
+      "page": "https://minecraft.wiki/w/Concrete_Powder#Pink",
+      "family": "concrete_powder",
+      "variant": "pink",
+      "source": "variant-family"
+    },
+    "white_terracotta": {
+      "title": "White Terracotta",
+      "invicon": "Invicon_White_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#White",
+      "family": "terracotta",
+      "variant": "white",
+      "source": "variant-family"
+    },
+    "light_gray_terracotta": {
+      "title": "Light Gray Terracotta",
+      "invicon": "Invicon_Light_Gray_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Light Gray",
+      "family": "terracotta",
+      "variant": "light_gray",
+      "source": "variant-family"
+    },
+    "gray_terracotta": {
+      "title": "Gray Terracotta",
+      "invicon": "Invicon_Gray_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Gray",
+      "family": "terracotta",
+      "variant": "gray",
+      "source": "variant-family"
+    },
+    "black_terracotta": {
+      "title": "Black Terracotta",
+      "invicon": "Invicon_Black_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Black",
+      "family": "terracotta",
+      "variant": "black",
+      "source": "variant-family"
+    },
+    "brown_terracotta": {
+      "title": "Brown Terracotta",
+      "invicon": "Invicon_Brown_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Brown",
+      "family": "terracotta",
+      "variant": "brown",
+      "source": "variant-family"
+    },
+    "red_terracotta": {
+      "title": "Red Terracotta",
+      "invicon": "Invicon_Red_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Red",
+      "family": "terracotta",
+      "variant": "red",
+      "source": "variant-family"
+    },
+    "orange_terracotta": {
+      "title": "Orange Terracotta",
+      "invicon": "Invicon_Orange_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Orange",
+      "family": "terracotta",
+      "variant": "orange",
+      "source": "variant-family"
+    },
+    "yellow_terracotta": {
+      "title": "Yellow Terracotta",
+      "invicon": "Invicon_Yellow_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Yellow",
+      "family": "terracotta",
+      "variant": "yellow",
+      "source": "variant-family"
+    },
+    "lime_terracotta": {
+      "title": "Lime Terracotta",
+      "invicon": "Invicon_Lime_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Lime",
+      "family": "terracotta",
+      "variant": "lime",
+      "source": "variant-family"
+    },
+    "green_terracotta": {
+      "title": "Green Terracotta",
+      "invicon": "Invicon_Green_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Green",
+      "family": "terracotta",
+      "variant": "green",
+      "source": "variant-family"
+    },
+    "cyan_terracotta": {
+      "title": "Cyan Terracotta",
+      "invicon": "Invicon_Cyan_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Cyan",
+      "family": "terracotta",
+      "variant": "cyan",
+      "source": "variant-family"
+    },
+    "light_blue_terracotta": {
+      "title": "Light Blue Terracotta",
+      "invicon": "Invicon_Light_Blue_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Light Blue",
+      "family": "terracotta",
+      "variant": "light_blue",
+      "source": "variant-family"
+    },
+    "blue_terracotta": {
+      "title": "Blue Terracotta",
+      "invicon": "Invicon_Blue_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Blue",
+      "family": "terracotta",
+      "variant": "blue",
+      "source": "variant-family"
+    },
+    "purple_terracotta": {
+      "title": "Purple Terracotta",
+      "invicon": "Invicon_Purple_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Purple",
+      "family": "terracotta",
+      "variant": "purple",
+      "source": "variant-family"
+    },
+    "magenta_terracotta": {
+      "title": "Magenta Terracotta",
+      "invicon": "Invicon_Magenta_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Magenta",
+      "family": "terracotta",
+      "variant": "magenta",
+      "source": "variant-family"
+    },
+    "pink_terracotta": {
+      "title": "Pink Terracotta",
+      "invicon": "Invicon_Pink_Terracotta.png",
+      "page": "https://minecraft.wiki/w/Terracotta#Pink",
+      "family": "terracotta",
+      "variant": "pink",
+      "source": "variant-family"
+    },
+    "white_stained_glass": {
+      "title": "White Stained Glass",
+      "invicon": "Invicon_White_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#White",
+      "family": "stained_glass",
+      "variant": "white",
+      "source": "variant-family"
+    },
+    "light_gray_stained_glass": {
+      "title": "Light Gray Stained Glass",
+      "invicon": "Invicon_Light_Gray_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Light Gray",
+      "family": "stained_glass",
+      "variant": "light_gray",
+      "source": "variant-family"
+    },
+    "gray_stained_glass": {
+      "title": "Gray Stained Glass",
+      "invicon": "Invicon_Gray_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Gray",
+      "family": "stained_glass",
+      "variant": "gray",
+      "source": "variant-family"
+    },
+    "black_stained_glass": {
+      "title": "Black Stained Glass",
+      "invicon": "Invicon_Black_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Black",
+      "family": "stained_glass",
+      "variant": "black",
+      "source": "variant-family"
+    },
+    "brown_stained_glass": {
+      "title": "Brown Stained Glass",
+      "invicon": "Invicon_Brown_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Brown",
+      "family": "stained_glass",
+      "variant": "brown",
+      "source": "variant-family"
+    },
+    "red_stained_glass": {
+      "title": "Red Stained Glass",
+      "invicon": "Invicon_Red_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Red",
+      "family": "stained_glass",
+      "variant": "red",
+      "source": "variant-family"
+    },
+    "orange_stained_glass": {
+      "title": "Orange Stained Glass",
+      "invicon": "Invicon_Orange_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Orange",
+      "family": "stained_glass",
+      "variant": "orange",
+      "source": "variant-family"
+    },
+    "yellow_stained_glass": {
+      "title": "Yellow Stained Glass",
+      "invicon": "Invicon_Yellow_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Yellow",
+      "family": "stained_glass",
+      "variant": "yellow",
+      "source": "variant-family"
+    },
+    "lime_stained_glass": {
+      "title": "Lime Stained Glass",
+      "invicon": "Invicon_Lime_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Lime",
+      "family": "stained_glass",
+      "variant": "lime",
+      "source": "variant-family"
+    },
+    "green_stained_glass": {
+      "title": "Green Stained Glass",
+      "invicon": "Invicon_Green_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Green",
+      "family": "stained_glass",
+      "variant": "green",
+      "source": "variant-family"
+    },
+    "cyan_stained_glass": {
+      "title": "Cyan Stained Glass",
+      "invicon": "Invicon_Cyan_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Cyan",
+      "family": "stained_glass",
+      "variant": "cyan",
+      "source": "variant-family"
+    },
+    "light_blue_stained_glass": {
+      "title": "Light Blue Stained Glass",
+      "invicon": "Invicon_Light_Blue_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Light Blue",
+      "family": "stained_glass",
+      "variant": "light_blue",
+      "source": "variant-family"
+    },
+    "blue_stained_glass": {
+      "title": "Blue Stained Glass",
+      "invicon": "Invicon_Blue_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Blue",
+      "family": "stained_glass",
+      "variant": "blue",
+      "source": "variant-family"
+    },
+    "purple_stained_glass": {
+      "title": "Purple Stained Glass",
+      "invicon": "Invicon_Purple_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Purple",
+      "family": "stained_glass",
+      "variant": "purple",
+      "source": "variant-family"
+    },
+    "magenta_stained_glass": {
+      "title": "Magenta Stained Glass",
+      "invicon": "Invicon_Magenta_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Magenta",
+      "family": "stained_glass",
+      "variant": "magenta",
+      "source": "variant-family"
+    },
+    "pink_stained_glass": {
+      "title": "Pink Stained Glass",
+      "invicon": "Invicon_Pink_Stained_Glass.png",
+      "page": "https://minecraft.wiki/w/Stained_Glass#Pink",
+      "family": "stained_glass",
+      "variant": "pink",
+      "source": "variant-family"
+    },
+    "white_shulker_box": {
+      "title": "White Shulker Box",
+      "invicon": "Invicon_White_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#White",
+      "family": "shulker_box",
+      "variant": "white",
+      "source": "variant-family"
+    },
+    "light_gray_shulker_box": {
+      "title": "Light Gray Shulker Box",
+      "invicon": "Invicon_Light_Gray_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Light Gray",
+      "family": "shulker_box",
+      "variant": "light_gray",
+      "source": "variant-family"
+    },
+    "gray_shulker_box": {
+      "title": "Gray Shulker Box",
+      "invicon": "Invicon_Gray_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Gray",
+      "family": "shulker_box",
+      "variant": "gray",
+      "source": "variant-family"
+    },
+    "black_shulker_box": {
+      "title": "Black Shulker Box",
+      "invicon": "Invicon_Black_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Black",
+      "family": "shulker_box",
+      "variant": "black",
+      "source": "variant-family"
+    },
+    "brown_shulker_box": {
+      "title": "Brown Shulker Box",
+      "invicon": "Invicon_Brown_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Brown",
+      "family": "shulker_box",
+      "variant": "brown",
+      "source": "variant-family"
+    },
+    "red_shulker_box": {
+      "title": "Red Shulker Box",
+      "invicon": "Invicon_Red_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Red",
+      "family": "shulker_box",
+      "variant": "red",
+      "source": "variant-family"
+    },
+    "orange_shulker_box": {
+      "title": "Orange Shulker Box",
+      "invicon": "Invicon_Orange_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Orange",
+      "family": "shulker_box",
+      "variant": "orange",
+      "source": "variant-family"
+    },
+    "yellow_shulker_box": {
+      "title": "Yellow Shulker Box",
+      "invicon": "Invicon_Yellow_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Yellow",
+      "family": "shulker_box",
+      "variant": "yellow",
+      "source": "variant-family"
+    },
+    "lime_shulker_box": {
+      "title": "Lime Shulker Box",
+      "invicon": "Invicon_Lime_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Lime",
+      "family": "shulker_box",
+      "variant": "lime",
+      "source": "variant-family"
+    },
+    "green_shulker_box": {
+      "title": "Green Shulker Box",
+      "invicon": "Invicon_Green_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Green",
+      "family": "shulker_box",
+      "variant": "green",
+      "source": "variant-family"
+    },
+    "cyan_shulker_box": {
+      "title": "Cyan Shulker Box",
+      "invicon": "Invicon_Cyan_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Cyan",
+      "family": "shulker_box",
+      "variant": "cyan",
+      "source": "variant-family"
+    },
+    "light_blue_shulker_box": {
+      "title": "Light Blue Shulker Box",
+      "invicon": "Invicon_Light_Blue_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Light Blue",
+      "family": "shulker_box",
+      "variant": "light_blue",
+      "source": "variant-family"
+    },
+    "blue_shulker_box": {
+      "title": "Blue Shulker Box",
+      "invicon": "Invicon_Blue_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Blue",
+      "family": "shulker_box",
+      "variant": "blue",
+      "source": "variant-family"
+    },
+    "purple_shulker_box": {
+      "title": "Purple Shulker Box",
+      "invicon": "Invicon_Purple_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Purple",
+      "family": "shulker_box",
+      "variant": "purple",
+      "source": "variant-family"
+    },
+    "magenta_shulker_box": {
+      "title": "Magenta Shulker Box",
+      "invicon": "Invicon_Magenta_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Magenta",
+      "family": "shulker_box",
+      "variant": "magenta",
+      "source": "variant-family"
+    },
+    "pink_shulker_box": {
+      "title": "Pink Shulker Box",
+      "invicon": "Invicon_Pink_Shulker_Box.png",
+      "page": "https://minecraft.wiki/w/Shulker_Box#Pink",
+      "family": "shulker_box",
+      "variant": "pink",
+      "source": "variant-family"
+    },
+    "white_dye": {
+      "title": "White Dye",
+      "invicon": "Invicon_White_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#White",
+      "family": "dye",
+      "variant": "white",
+      "source": "variant-family"
+    },
+    "light_gray_dye": {
+      "title": "Light Gray Dye",
+      "invicon": "Invicon_Light_Gray_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Light Gray",
+      "family": "dye",
+      "variant": "light_gray",
+      "source": "variant-family"
+    },
+    "gray_dye": {
+      "title": "Gray Dye",
+      "invicon": "Invicon_Gray_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Gray",
+      "family": "dye",
+      "variant": "gray",
+      "source": "variant-family"
+    },
+    "black_dye": {
+      "title": "Black Dye",
+      "invicon": "Invicon_Black_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Black",
+      "family": "dye",
+      "variant": "black",
+      "source": "variant-family"
+    },
+    "brown_dye": {
+      "title": "Brown Dye",
+      "invicon": "Invicon_Brown_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Brown",
+      "family": "dye",
+      "variant": "brown",
+      "source": "variant-family"
+    },
+    "red_dye": {
+      "title": "Red Dye",
+      "invicon": "Invicon_Red_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Red",
+      "family": "dye",
+      "variant": "red",
+      "source": "variant-family"
+    },
+    "orange_dye": {
+      "title": "Orange Dye",
+      "invicon": "Invicon_Orange_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Orange",
+      "family": "dye",
+      "variant": "orange",
+      "source": "variant-family"
+    },
+    "yellow_dye": {
+      "title": "Yellow Dye",
+      "invicon": "Invicon_Yellow_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Yellow",
+      "family": "dye",
+      "variant": "yellow",
+      "source": "variant-family"
+    },
+    "lime_dye": {
+      "title": "Lime Dye",
+      "invicon": "Invicon_Lime_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Lime",
+      "family": "dye",
+      "variant": "lime",
+      "source": "variant-family"
+    },
+    "green_dye": {
+      "title": "Green Dye",
+      "invicon": "Invicon_Green_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Green",
+      "family": "dye",
+      "variant": "green",
+      "source": "variant-family"
+    },
+    "cyan_dye": {
+      "title": "Cyan Dye",
+      "invicon": "Invicon_Cyan_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Cyan",
+      "family": "dye",
+      "variant": "cyan",
+      "source": "variant-family"
+    },
+    "light_blue_dye": {
+      "title": "Light Blue Dye",
+      "invicon": "Invicon_Light_Blue_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Light Blue",
+      "family": "dye",
+      "variant": "light_blue",
+      "source": "variant-family"
+    },
+    "blue_dye": {
+      "title": "Blue Dye",
+      "invicon": "Invicon_Blue_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Blue",
+      "family": "dye",
+      "variant": "blue",
+      "source": "variant-family"
+    },
+    "purple_dye": {
+      "title": "Purple Dye",
+      "invicon": "Invicon_Purple_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Purple",
+      "family": "dye",
+      "variant": "purple",
+      "source": "variant-family"
+    },
+    "magenta_dye": {
+      "title": "Magenta Dye",
+      "invicon": "Invicon_Magenta_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Magenta",
+      "family": "dye",
+      "variant": "magenta",
+      "source": "variant-family"
+    },
+    "pink_dye": {
+      "title": "Pink Dye",
+      "invicon": "Invicon_Pink_Dye.png",
+      "page": "https://minecraft.wiki/w/Dye#Pink",
+      "family": "dye",
+      "variant": "pink",
+      "source": "variant-family"
+    },
+    "white_candle": {
+      "title": "White Candle",
+      "invicon": "Invicon_White_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#White",
+      "family": "candle",
+      "variant": "white",
+      "source": "variant-family"
+    },
+    "light_gray_candle": {
+      "title": "Light Gray Candle",
+      "invicon": "Invicon_Light_Gray_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Light Gray",
+      "family": "candle",
+      "variant": "light_gray",
+      "source": "variant-family"
+    },
+    "gray_candle": {
+      "title": "Gray Candle",
+      "invicon": "Invicon_Gray_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Gray",
+      "family": "candle",
+      "variant": "gray",
+      "source": "variant-family"
+    },
+    "black_candle": {
+      "title": "Black Candle",
+      "invicon": "Invicon_Black_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Black",
+      "family": "candle",
+      "variant": "black",
+      "source": "variant-family"
+    },
+    "brown_candle": {
+      "title": "Brown Candle",
+      "invicon": "Invicon_Brown_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Brown",
+      "family": "candle",
+      "variant": "brown",
+      "source": "variant-family"
+    },
+    "red_candle": {
+      "title": "Red Candle",
+      "invicon": "Invicon_Red_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Red",
+      "family": "candle",
+      "variant": "red",
+      "source": "variant-family"
+    },
+    "orange_candle": {
+      "title": "Orange Candle",
+      "invicon": "Invicon_Orange_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Orange",
+      "family": "candle",
+      "variant": "orange",
+      "source": "variant-family"
+    },
+    "yellow_candle": {
+      "title": "Yellow Candle",
+      "invicon": "Invicon_Yellow_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Yellow",
+      "family": "candle",
+      "variant": "yellow",
+      "source": "variant-family"
+    },
+    "lime_candle": {
+      "title": "Lime Candle",
+      "invicon": "Invicon_Lime_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Lime",
+      "family": "candle",
+      "variant": "lime",
+      "source": "variant-family"
+    },
+    "green_candle": {
+      "title": "Green Candle",
+      "invicon": "Invicon_Green_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Green",
+      "family": "candle",
+      "variant": "green",
+      "source": "variant-family"
+    },
+    "cyan_candle": {
+      "title": "Cyan Candle",
+      "invicon": "Invicon_Cyan_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Cyan",
+      "family": "candle",
+      "variant": "cyan",
+      "source": "variant-family"
+    },
+    "light_blue_candle": {
+      "title": "Light Blue Candle",
+      "invicon": "Invicon_Light_Blue_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Light Blue",
+      "family": "candle",
+      "variant": "light_blue",
+      "source": "variant-family"
+    },
+    "blue_candle": {
+      "title": "Blue Candle",
+      "invicon": "Invicon_Blue_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Blue",
+      "family": "candle",
+      "variant": "blue",
+      "source": "variant-family"
+    },
+    "purple_candle": {
+      "title": "Purple Candle",
+      "invicon": "Invicon_Purple_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Purple",
+      "family": "candle",
+      "variant": "purple",
+      "source": "variant-family"
+    },
+    "magenta_candle": {
+      "title": "Magenta Candle",
+      "invicon": "Invicon_Magenta_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Magenta",
+      "family": "candle",
+      "variant": "magenta",
+      "source": "variant-family"
+    },
+    "pink_candle": {
+      "title": "Pink Candle",
+      "invicon": "Invicon_Pink_Candle.png",
+      "page": "https://minecraft.wiki/w/Candle#Pink",
+      "family": "candle",
+      "variant": "pink",
+      "source": "variant-family"
+    },
+    "white_banner": {
+      "title": "White Banner",
+      "invicon": "Invicon_White_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#White",
+      "family": "banner",
+      "variant": "white",
+      "source": "variant-family"
+    },
+    "light_gray_banner": {
+      "title": "Light Gray Banner",
+      "invicon": "Invicon_Light_Gray_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Light Gray",
+      "family": "banner",
+      "variant": "light_gray",
+      "source": "variant-family"
+    },
+    "gray_banner": {
+      "title": "Gray Banner",
+      "invicon": "Invicon_Gray_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Gray",
+      "family": "banner",
+      "variant": "gray",
+      "source": "variant-family"
+    },
+    "black_banner": {
+      "title": "Black Banner",
+      "invicon": "Invicon_Black_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Black",
+      "family": "banner",
+      "variant": "black",
+      "source": "variant-family"
+    },
+    "brown_banner": {
+      "title": "Brown Banner",
+      "invicon": "Invicon_Brown_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Brown",
+      "family": "banner",
+      "variant": "brown",
+      "source": "variant-family"
+    },
+    "red_banner": {
+      "title": "Red Banner",
+      "invicon": "Invicon_Red_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Red",
+      "family": "banner",
+      "variant": "red",
+      "source": "variant-family"
+    },
+    "orange_banner": {
+      "title": "Orange Banner",
+      "invicon": "Invicon_Orange_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Orange",
+      "family": "banner",
+      "variant": "orange",
+      "source": "variant-family"
+    },
+    "yellow_banner": {
+      "title": "Yellow Banner",
+      "invicon": "Invicon_Yellow_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Yellow",
+      "family": "banner",
+      "variant": "yellow",
+      "source": "variant-family"
+    },
+    "lime_banner": {
+      "title": "Lime Banner",
+      "invicon": "Invicon_Lime_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Lime",
+      "family": "banner",
+      "variant": "lime",
+      "source": "variant-family"
+    },
+    "green_banner": {
+      "title": "Green Banner",
+      "invicon": "Invicon_Green_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Green",
+      "family": "banner",
+      "variant": "green",
+      "source": "variant-family"
+    },
+    "cyan_banner": {
+      "title": "Cyan Banner",
+      "invicon": "Invicon_Cyan_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Cyan",
+      "family": "banner",
+      "variant": "cyan",
+      "source": "variant-family"
+    },
+    "light_blue_banner": {
+      "title": "Light Blue Banner",
+      "invicon": "Invicon_Light_Blue_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Light Blue",
+      "family": "banner",
+      "variant": "light_blue",
+      "source": "variant-family"
+    },
+    "blue_banner": {
+      "title": "Blue Banner",
+      "invicon": "Invicon_Blue_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Blue",
+      "family": "banner",
+      "variant": "blue",
+      "source": "variant-family"
+    },
+    "purple_banner": {
+      "title": "Purple Banner",
+      "invicon": "Invicon_Purple_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Purple",
+      "family": "banner",
+      "variant": "purple",
+      "source": "variant-family"
+    },
+    "magenta_banner": {
+      "title": "Magenta Banner",
+      "invicon": "Invicon_Magenta_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Magenta",
+      "family": "banner",
+      "variant": "magenta",
+      "source": "variant-family"
+    },
+    "pink_banner": {
+      "title": "Pink Banner",
+      "invicon": "Invicon_Pink_Banner.png",
+      "page": "https://minecraft.wiki/w/Banner#Pink",
+      "family": "banner",
+      "variant": "pink",
+      "source": "variant-family"
+    }
   }
 }
