@@ -1,11 +1,11 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-08-27",
+  "updatedAt": "2026-08-28",
   "counts": {
-    "catalog": 6122,
-    "wikiFilesScanned": 7986,
-    "downloaded": 6121,
+    "catalog": 6126,
+    "wikiFilesScanned": 7990,
+    "downloaded": 6125,
     "animatedGifs": 111,
     "webpImages": 2,
     "byCategory": {
@@ -13,7 +13,7 @@
       "tools_weapons": 309,
       "armor_trims": 575,
       "food": 171,
-      "items": 1415,
+      "items": 1419,
       "blocks": 860,
       "variants": 164,
       "potions_dyes": 345,
@@ -55492,6 +55492,42 @@
       "local": "icons/crops/the_copper_age_player_made_workshop.png",
       "category": "crops",
       "ext": ".png"
+    },
+    "spawn_efron_die_blue": {
+      "title": "Spawn Efron Die (Blue)",
+      "invicon": "Invicon_Spawn_Efron_Die_(Blue).png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/spawn_efron_die_blue",
+      "source": "wiki-discovery",
+      "local": "icons/items/spawn_efron_die_blue.png"
+    },
+    "spawn_efron_die_green": {
+      "title": "Spawn Efron Die (Green)",
+      "invicon": "Invicon_Spawn_Efron_Die_(Green).png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/spawn_efron_die_green",
+      "source": "wiki-discovery",
+      "local": "icons/items/spawn_efron_die_green.png"
+    },
+    "spawn_efron_die_red": {
+      "title": "Spawn Efron Die (Red)",
+      "invicon": "Invicon_Spawn_Efron_Die_(Red).png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/spawn_efron_die_red",
+      "source": "wiki-discovery",
+      "local": "icons/items/spawn_efron_die_red.png"
+    },
+    "spawn_efron_die_yellow": {
+      "title": "Spawn Efron Die (Yellow)",
+      "invicon": "Invicon_Spawn_Efron_Die_(Yellow).png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/spawn_efron_die_yellow",
+      "source": "wiki-discovery",
+      "local": "icons/items/spawn_efron_die_yellow.png"
     }
   }
 }
