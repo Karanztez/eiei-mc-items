@@ -1,11 +1,11 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-08-31",
+  "updatedAt": "2026-09-01",
   "counts": {
-    "catalog": 6126,
-    "wikiFilesScanned": 7990,
-    "downloaded": 6125,
+    "catalog": 6129,
+    "wikiFilesScanned": 7993,
+    "downloaded": 6128,
     "animatedGifs": 111,
     "webpImages": 2,
     "byCategory": {
@@ -19,7 +19,7 @@
       "potions_dyes": 345,
       "banners": 730,
       "editions": 496,
-      "maps_books": 150,
+      "maps_books": 153,
       "crops": 476,
       "spawn_eggs": 239
     }
@@ -55528,6 +55528,33 @@
       "page": "https://minecraft.wiki/w/spawn_efron_die_yellow",
       "source": "wiki-discovery",
       "local": "icons/items/spawn_efron_die_yellow.png"
+    },
+    "abandoned_camp_map_je2": {
+      "title": "Abandoned Camp Map JE2",
+      "invicon": "Abandoned_Camp_Map_JE2.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/abandoned_camp_map_je2",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/abandoned_camp_map_je2.png"
+    },
+    "buried_ancient_city_map_je2": {
+      "title": "Buried Ancient City Map JE2",
+      "invicon": "Buried_Ancient_City_Map_JE2.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/buried_ancient_city_map_je2",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/buried_ancient_city_map_je2.png"
+    },
+    "warm_ocean_ruins_map_je2": {
+      "title": "Warm Ocean Ruins Map JE2",
+      "invicon": "Warm_Ocean_Ruins_Map_JE2.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/warm_ocean_ruins_map_je2",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/warm_ocean_ruins_map_je2.png"
     }
   }
 }
