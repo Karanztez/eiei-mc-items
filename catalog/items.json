@@ -1,19 +1,19 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-05",
+  "updatedAt": "2026-09-06",
   "counts": {
-    "catalog": 6129,
-    "wikiFilesScanned": 7993,
-    "downloaded": 6128,
+    "catalog": 6132,
+    "wikiFilesScanned": 7996,
+    "downloaded": 6131,
     "animatedGifs": 111,
     "webpImages": 2,
     "byCategory": {
       "materials": 191,
-      "tools_weapons": 309,
+      "tools_weapons": 311,
       "armor_trims": 575,
       "food": 171,
-      "items": 1419,
+      "items": 1420,
       "blocks": 860,
       "variants": 164,
       "potions_dyes": 345,
@@ -55555,6 +55555,33 @@
       "page": "https://minecraft.wiki/w/warm_ocean_ruins_map_je2",
       "source": "wiki-discovery",
       "local": "icons/maps_books/warm_ocean_ruins_map_je2.png"
+    },
+    "enchanted_axe": {
+      "title": "Enchanted Axe",
+      "invicon": "Invicon_Enchanted_Axe.png",
+      "ext": ".png",
+      "category": "tools_weapons",
+      "page": "https://minecraft.wiki/w/enchanted_axe",
+      "source": "wiki-discovery",
+      "local": "icons/tools_weapons/enchanted_axe.png"
+    },
+    "enchanted_shield": {
+      "title": "Enchanted Shield",
+      "invicon": "Invicon_Enchanted_Shield.png",
+      "ext": ".png",
+      "category": "tools_weapons",
+      "page": "https://minecraft.wiki/w/enchanted_shield",
+      "source": "wiki-discovery",
+      "local": "icons/tools_weapons/enchanted_shield.png"
+    },
+    "ghast_tears_sm": {
+      "title": "Ghast Tears SM",
+      "invicon": "Invicon_Ghast_Tears_SM.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/ghast_tears_sm",
+      "source": "wiki-discovery",
+      "local": "icons/items/ghast_tears_sm.png"
     }
   }
 }
