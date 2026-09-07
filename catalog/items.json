@@ -1,11 +1,11 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-06",
+  "updatedAt": "2026-09-07",
   "counts": {
-    "catalog": 6132,
-    "wikiFilesScanned": 7996,
-    "downloaded": 6131,
+    "catalog": 6134,
+    "wikiFilesScanned": 7998,
+    "downloaded": 6133,
     "animatedGifs": 111,
     "webpImages": 2,
     "byCategory": {
@@ -13,7 +13,7 @@
       "tools_weapons": 311,
       "armor_trims": 575,
       "food": 171,
-      "items": 1420,
+      "items": 1422,
       "blocks": 860,
       "variants": 164,
       "potions_dyes": 345,
@@ -55582,6 +55582,24 @@
       "page": "https://minecraft.wiki/w/ghast_tears_sm",
       "source": "wiki-discovery",
       "local": "icons/items/ghast_tears_sm.png"
+    },
+    "ender_pearl_sm": {
+      "title": "Ender Pearl SM",
+      "invicon": "Invicon_Ender_Pearl_SM.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/ender_pearl_sm",
+      "source": "wiki-discovery",
+      "local": "icons/items/ender_pearl_sm.png"
+    },
+    "gravel_sm": {
+      "title": "Gravel SM",
+      "invicon": "Invicon_Gravel_SM.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/gravel_sm",
+      "source": "wiki-discovery",
+      "local": "icons/items/gravel_sm.png"
     }
   }
 }
