@@ -1,19 +1,19 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-07",
+  "updatedAt": "2026-09-08",
   "counts": {
-    "catalog": 6134,
-    "wikiFilesScanned": 7998,
-    "downloaded": 6133,
+    "catalog": 6146,
+    "wikiFilesScanned": 8010,
+    "downloaded": 6145,
     "animatedGifs": 111,
     "webpImages": 2,
     "byCategory": {
       "materials": 191,
       "tools_weapons": 311,
-      "armor_trims": 575,
+      "armor_trims": 586,
       "food": 171,
-      "items": 1422,
+      "items": 1423,
       "blocks": 860,
       "variants": 164,
       "potions_dyes": 345,
@@ -55600,6 +55600,114 @@
       "page": "https://minecraft.wiki/w/gravel_sm",
       "source": "wiki-discovery",
       "local": "icons/items/gravel_sm.png"
+    },
+    "amber_trim_poisonous_pota_toes": {
+      "title": "Amber Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Amber_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/amber_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/amber_trim_poisonous_pota_toes.png"
+    },
+    "amethyst_trim_poisonous_pota_toes": {
+      "title": "Amethyst Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Amethyst_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/amethyst_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/amethyst_trim_poisonous_pota_toes.png"
+    },
+    "copper_trim_poisonous_pota_toes": {
+      "title": "Copper Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Copper_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/copper_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/copper_trim_poisonous_pota_toes.png"
+    },
+    "diamond_trim_poisonous_pota_toes": {
+      "title": "Diamond Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Diamond_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/diamond_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/diamond_trim_poisonous_pota_toes.png"
+    },
+    "emerald_trim_poisonous_pota_toes": {
+      "title": "Emerald Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Emerald_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/emerald_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/emerald_trim_poisonous_pota_toes.png"
+    },
+    "f_bomb": {
+      "title": "F-Bomb",
+      "invicon": "Invicon_F-Bomb.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/f_bomb",
+      "source": "wiki-discovery",
+      "local": "icons/items/f_bomb.png"
+    },
+    "gold_trim_poisonous_pota_toes": {
+      "title": "Gold Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Gold_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/gold_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/gold_trim_poisonous_pota_toes.png"
+    },
+    "iron_trim_poisonous_pota_toes": {
+      "title": "Iron Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Iron_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/iron_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/iron_trim_poisonous_pota_toes.png"
+    },
+    "lapis_trim_poisonous_pota_toes": {
+      "title": "Lapis Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Lapis_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/lapis_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/lapis_trim_poisonous_pota_toes.png"
+    },
+    "netherite_trim_poisonous_pota_toes": {
+      "title": "Netherite Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Netherite_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/netherite_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/netherite_trim_poisonous_pota_toes.png"
+    },
+    "quartz_trim_poisonous_pota_toes": {
+      "title": "Quartz Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Quartz_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/quartz_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/quartz_trim_poisonous_pota_toes.png"
+    },
+    "redstone_trim_poisonous_pota_toes": {
+      "title": "Redstone Trim Poisonous Pota-Toes",
+      "invicon": "Invicon_Redstone_Trim_Poisonous_Pota-Toes.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/redstone_trim_poisonous_pota_toes",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/redstone_trim_poisonous_pota_toes.png"
     }
   }
 }
