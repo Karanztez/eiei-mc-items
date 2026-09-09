@@ -1,19 +1,19 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-08",
+  "updatedAt": "2026-09-09",
   "counts": {
-    "catalog": 6146,
-    "wikiFilesScanned": 8010,
-    "downloaded": 6145,
+    "catalog": 6149,
+    "wikiFilesScanned": 8013,
+    "downloaded": 6148,
     "animatedGifs": 111,
     "webpImages": 2,
     "byCategory": {
       "materials": 191,
       "tools_weapons": 311,
-      "armor_trims": 586,
+      "armor_trims": 587,
       "food": 171,
-      "items": 1423,
+      "items": 1425,
       "blocks": 860,
       "variants": 164,
       "potions_dyes": 345,
@@ -55708,6 +55708,33 @@
       "page": "https://minecraft.wiki/w/redstone_trim_poisonous_pota_toes",
       "source": "wiki-discovery",
       "local": "icons/armor_trims/redstone_trim_poisonous_pota_toes.png"
+    },
+    "broken_poisonous_polytra": {
+      "title": "Broken Poisonous Polytra",
+      "invicon": "Invicon_Broken_Poisonous_Polytra.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/broken_poisonous_polytra",
+      "source": "wiki-discovery",
+      "local": "icons/items/broken_poisonous_polytra.png"
+    },
+    "damaged_poisonous_polytra": {
+      "title": "Damaged Poisonous Polytra",
+      "invicon": "Invicon_Damaged_Poisonous_Polytra.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/damaged_poisonous_polytra",
+      "source": "wiki-discovery",
+      "local": "icons/items/damaged_poisonous_polytra.png"
+    },
+    "damaged_shazboots": {
+      "title": "Damaged Shazboots!",
+      "invicon": "Invicon_Damaged_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/damaged_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/damaged_shazboots.png"
     }
   }
 }
