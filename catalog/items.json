@@ -1,11 +1,11 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-11",
+  "updatedAt": "2026-09-12",
   "counts": {
-    "catalog": 6149,
-    "wikiFilesScanned": 8013,
-    "downloaded": 6148,
+    "catalog": 6152,
+    "wikiFilesScanned": 8016,
+    "downloaded": 6151,
     "animatedGifs": 111,
     "webpImages": 2,
     "byCategory": {
@@ -13,7 +13,7 @@
       "tools_weapons": 311,
       "armor_trims": 587,
       "food": 171,
-      "items": 1425,
+      "items": 1428,
       "blocks": 860,
       "variants": 164,
       "potions_dyes": 345,
@@ -55735,6 +55735,33 @@
       "page": "https://minecraft.wiki/w/damaged_shazboots",
       "source": "wiki-discovery",
       "local": "icons/armor_trims/damaged_shazboots.png"
+    },
+    "phonoblast_tnt": {
+      "title": "Phonoblast TNT",
+      "invicon": "Invicon_Phonoblast_TNT.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/phonoblast_tnt",
+      "source": "wiki-discovery",
+      "local": "icons/items/phonoblast_tnt.png"
+    },
+    "suction_spiral": {
+      "title": "Suction Spiral",
+      "invicon": "Invicon_Suction_Spiral.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/suction_spiral",
+      "source": "wiki-discovery",
+      "local": "icons/items/suction_spiral.png"
+    },
+    "wings_of_flame": {
+      "title": "Wings of Flame",
+      "invicon": "Invicon_Wings_of_Flame.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/wings_of_flame",
+      "source": "wiki-discovery",
+      "local": "icons/items/wings_of_flame.png"
     }
   }
 }

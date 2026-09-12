@@ -1,16 +1,16 @@
 # Item catalog
 
-Updated 2026-09-11
+Updated 2026-09-12
 
-- 6149 mapped items
-- 8013 wiki files scanned
-- 6148 local icons downloaded (111 animated GIFs, 2 WEBP)
+- 6152 mapped items
+- 8016 wiki files scanned
+- 6151 local icons downloaded (111 animated GIFs, 2 WEBP)
 - Subfolders:
   - `icons/materials/`: 191 icons
   - `icons/tools_weapons/`: 311 icons
   - `icons/armor_trims/`: 587 icons
   - `icons/food/`: 171 icons
-  - `icons/items/`: 1425 icons
+  - `icons/items/`: 1428 icons
   - `icons/blocks/`: 860 icons
   - `icons/variants/`: 164 icons
   - `icons/potions_dyes/`: 345 icons
