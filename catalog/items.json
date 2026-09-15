@@ -1,26 +1,26 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-15",
   "counts": {
-    "catalog": 6152,
-    "wikiFilesScanned": 8018,
-    "downloaded": 6151,
-    "animatedGifs": 111,
+    "catalog": 6177,
+    "wikiFilesScanned": 8047,
+    "downloaded": 6176,
+    "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
       "materials": 191,
       "tools_weapons": 311,
       "armor_trims": 587,
-      "food": 171,
-      "items": 1428,
-      "blocks": 860,
+      "food": 174,
+      "items": 1444,
+      "blocks": 863,
       "variants": 164,
       "potions_dyes": 345,
       "banners": 730,
       "editions": 496,
       "maps_books": 153,
-      "crops": 476,
+      "crops": 479,
       "spawn_eggs": 239
     }
   },
@@ -31600,12 +31600,12 @@
     },
     "portal": {
       "title": "Portal",
-      "invicon": "Invicon_Portal.png",
+      "invicon": "Invicon_Portal.gif",
+      "ext": ".gif",
+      "category": "items",
       "page": "https://minecraft.wiki/w/portal",
       "source": "wiki-discovery",
-      "local": "icons/items/portal.png",
-      "category": "items",
-      "ext": ".png"
+      "local": "icons/items/portal.gif"
     },
     "portfolio": {
       "title": "Portfolio",
@@ -55762,6 +55762,231 @@
       "page": "https://minecraft.wiki/w/wings_of_flame",
       "source": "wiki-discovery",
       "local": "icons/items/wings_of_flame.png"
+    },
+    "bamboo_sapling": {
+      "title": "Bamboo Sapling",
+      "invicon": "Invicon_Bamboo_Sapling.png",
+      "ext": ".png",
+      "category": "crops",
+      "page": "https://minecraft.wiki/w/bamboo_sapling",
+      "source": "wiki-discovery",
+      "local": "icons/crops/bamboo_sapling.png"
+    },
+    "carrots": {
+      "title": "Carrots",
+      "invicon": "Invicon_Carrots.png",
+      "ext": ".png",
+      "category": "food",
+      "page": "https://minecraft.wiki/w/carrots",
+      "source": "wiki-discovery",
+      "local": "icons/food/carrots.png"
+    },
+    "cave_vines": {
+      "title": "Cave Vines",
+      "invicon": "Invicon_Cave_Vines.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/cave_vines",
+      "source": "wiki-discovery",
+      "local": "icons/items/cave_vines.png"
+    },
+    "chalkboard": {
+      "title": "Chalkboard",
+      "invicon": "Invicon_Chalkboard.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/chalkboard",
+      "source": "wiki-discovery",
+      "local": "icons/items/chalkboard.png"
+    },
+    "daylight_detector_inverted": {
+      "title": "Daylight Detector Inverted",
+      "invicon": "Invicon_Daylight_Detector_Inverted.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/daylight_detector_inverted",
+      "source": "wiki-discovery",
+      "local": "icons/items/daylight_detector_inverted.png"
+    },
+    "lit_blast_furnace": {
+      "title": "Lit Blast Furnace",
+      "invicon": "Invicon_Lit_Blast_Furnace.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/lit_blast_furnace",
+      "source": "wiki-discovery",
+      "local": "icons/items/lit_blast_furnace.png"
+    },
+    "lit_furnace_je": {
+      "title": "Lit Furnace JE",
+      "invicon": "Invicon_Lit_Furnace_JE.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/lit_furnace_je",
+      "source": "wiki-discovery",
+      "local": "icons/items/lit_furnace_je.png"
+    },
+    "lit_smoker": {
+      "title": "Lit Smoker",
+      "invicon": "Invicon_Lit_Smoker.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/lit_smoker",
+      "source": "wiki-discovery",
+      "local": "icons/items/lit_smoker.png"
+    },
+    "piston_arm_collision": {
+      "title": "Piston Arm Collision",
+      "invicon": "Invicon_Piston_Arm_Collision.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/piston_arm_collision",
+      "source": "wiki-discovery",
+      "local": "icons/items/piston_arm_collision.png"
+    },
+    "pitcher_crop": {
+      "title": "Pitcher Crop",
+      "invicon": "Invicon_Pitcher_Crop.png",
+      "ext": ".png",
+      "category": "crops",
+      "page": "https://minecraft.wiki/w/pitcher_crop",
+      "source": "wiki-discovery",
+      "local": "icons/crops/pitcher_crop.png"
+    },
+    "portal_unanimated": {
+      "title": "Portal unanimated",
+      "invicon": "Invicon_Portal_unanimated.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/portal_unanimated",
+      "source": "wiki-discovery",
+      "local": "icons/items/portal_unanimated.png"
+    },
+    "potatoes": {
+      "title": "Potatoes",
+      "invicon": "Invicon_Potatoes.png",
+      "ext": ".png",
+      "category": "food",
+      "page": "https://minecraft.wiki/w/potatoes",
+      "source": "wiki-discovery",
+      "local": "icons/food/potatoes.png"
+    },
+    "powered_comparator": {
+      "title": "Powered Comparator",
+      "invicon": "Invicon_Powered_Comparator.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/powered_comparator",
+      "source": "wiki-discovery",
+      "local": "icons/items/powered_comparator.png"
+    },
+    "powered_repeater": {
+      "title": "Powered Repeater",
+      "invicon": "Invicon_Powered_Repeater.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/powered_repeater",
+      "source": "wiki-discovery",
+      "local": "icons/items/powered_repeater.png"
+    },
+    "sticky_piston_arm_collision": {
+      "title": "Sticky Piston Arm Collision",
+      "invicon": "Invicon_Sticky_Piston_Arm_Collision.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/sticky_piston_arm_collision",
+      "source": "wiki-discovery",
+      "local": "icons/items/sticky_piston_arm_collision.png"
+    },
+    "sweet_berry_bush": {
+      "title": "Sweet Berry Bush",
+      "invicon": "Invicon_Sweet_Berry_Bush.png",
+      "ext": ".png",
+      "category": "food",
+      "page": "https://minecraft.wiki/w/sweet_berry_bush",
+      "source": "wiki-discovery",
+      "local": "icons/food/sweet_berry_bush.png"
+    },
+    "torchflower_crop": {
+      "title": "Torchflower Crop",
+      "invicon": "Invicon_Torchflower_Crop.png",
+      "ext": ".png",
+      "category": "crops",
+      "page": "https://minecraft.wiki/w/torchflower_crop",
+      "source": "wiki-discovery",
+      "local": "icons/crops/torchflower_crop.png"
+    },
+    "tripwire": {
+      "title": "Tripwire",
+      "invicon": "Invicon_Tripwire.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/tripwire",
+      "source": "wiki-discovery",
+      "local": "icons/items/tripwire.png"
+    },
+    "unknown": {
+      "title": "Unknown",
+      "invicon": "Invicon_Unknown.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/unknown",
+      "source": "wiki-discovery",
+      "local": "icons/items/unknown.png"
+    },
+    "unpowered_comparator": {
+      "title": "Unpowered Comparator",
+      "invicon": "Invicon_Unpowered_Comparator.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/unpowered_comparator",
+      "source": "wiki-discovery",
+      "local": "icons/items/unpowered_comparator.png"
+    },
+    "unpowered_repeater": {
+      "title": "Unpowered Repeater",
+      "invicon": "Invicon_Unpowered_Repeater.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/unpowered_repeater",
+      "source": "wiki-discovery",
+      "local": "icons/items/unpowered_repeater.png"
+    },
+    "inventory_item_shading_example": {
+      "title": "Inventory item shading example",
+      "invicon": "Inventory_item_shading_example.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/inventory_item_shading_example",
+      "source": "wiki-discovery",
+      "local": "icons/items/inventory_item_shading_example.png"
+    },
+    "solid_white_block_item_front_26_1_snapshot_1": {
+      "title": "Solid White Block Item Front 26.1-snapshot-1",
+      "invicon": "Solid_White_Block_Item_Front_26.1-snapshot-1.png",
+      "ext": ".png",
+      "category": "blocks",
+      "page": "https://minecraft.wiki/w/solid_white_block_item_front_26_1_snapshot_1",
+      "source": "wiki-discovery",
+      "local": "icons/blocks/solid_white_block_item_front_26_1_snapshot_1.png"
+    },
+    "shelf": {
+      "title": "shelf",
+      "invicon": "BlockSprite_shelf.png",
+      "ext": ".png",
+      "category": "blocks",
+      "page": "https://minecraft.wiki/w/shelf",
+      "source": "wiki-discovery",
+      "local": "icons/blocks/shelf.png"
+    },
+    "all_shelves": {
+      "title": "all-shelves",
+      "invicon": "BlockSprite_all-shelves.png",
+      "ext": ".png",
+      "category": "blocks",
+      "page": "https://minecraft.wiki/w/all_shelves",
+      "source": "wiki-discovery",
+      "local": "icons/blocks/all_shelves.png"
     }
   }
 }
