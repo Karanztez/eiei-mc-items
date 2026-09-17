@@ -1,11 +1,11 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-17",
   "counts": {
-    "catalog": 6177,
-    "wikiFilesScanned": 8047,
-    "downloaded": 6176,
+    "catalog": 6185,
+    "wikiFilesScanned": 8050,
+    "downloaded": 6184,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
@@ -13,13 +13,13 @@
       "tools_weapons": 311,
       "armor_trims": 587,
       "food": 174,
-      "items": 1444,
+      "items": 1445,
       "blocks": 863,
       "variants": 164,
       "potions_dyes": 345,
       "banners": 730,
       "editions": 496,
-      "maps_books": 153,
+      "maps_books": 160,
       "crops": 479,
       "spawn_eggs": 239
     }
@@ -55987,6 +55987,78 @@
       "page": "https://minecraft.wiki/w/all_shelves",
       "source": "wiki-discovery",
       "local": "icons/blocks/all_shelves.png"
+    },
+    "confetti": {
+      "title": "Confetti",
+      "invicon": "Invicon_Confetti.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/confetti",
+      "source": "wiki-discovery",
+      "local": "icons/items/confetti.png"
+    },
+    "time_capsule_handbook": {
+      "title": "Time Capsule Handbook",
+      "invicon": "Invicon_Time_Capsule_Handbook.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/time_capsule_handbook",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/time_capsule_handbook.png"
+    },
+    "vibrant_memories_handbook": {
+      "title": "Vibrant Memories Handbook",
+      "invicon": "Invicon_Vibrant_Memories_Handbook.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/vibrant_memories_handbook",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/vibrant_memories_handbook.png"
+    },
+    "buried_trial_chambers_map": {
+      "title": "buried-trial-chambers-map",
+      "invicon": "ItemSprite_buried-trial-chambers-map.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/buried_trial_chambers_map",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/buried_trial_chambers_map.png"
+    },
+    "jungle_pyramid_map": {
+      "title": "jungle-pyramid-map",
+      "invicon": "ItemSprite_jungle-pyramid-map.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/jungle_pyramid_map",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/jungle_pyramid_map.png"
+    },
+    "ocean_monument_map": {
+      "title": "ocean-monument-map",
+      "invicon": "ItemSprite_ocean-monument-map.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/ocean_monument_map",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/ocean_monument_map.png"
+    },
+    "swamp_hut_map": {
+      "title": "swamp-hut-map",
+      "invicon": "ItemSprite_swamp-hut-map.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/swamp_hut_map",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/swamp_hut_map.png"
+    },
+    "woodland_mansion_map": {
+      "title": "woodland-mansion-map",
+      "invicon": "ItemSprite_woodland-mansion-map.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/woodland_mansion_map",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/woodland_mansion_map.png"
     }
   }
 }
