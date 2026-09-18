@@ -1,25 +1,25 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-17",
+  "updatedAt": "2026-09-18",
   "counts": {
-    "catalog": 6185,
-    "wikiFilesScanned": 8050,
-    "downloaded": 6184,
+    "catalog": 6188,
+    "wikiFilesScanned": 8052,
+    "downloaded": 6187,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
       "materials": 191,
       "tools_weapons": 311,
       "armor_trims": 587,
-      "food": 174,
+      "food": 175,
       "items": 1445,
-      "blocks": 863,
+      "blocks": 864,
       "variants": 164,
       "potions_dyes": 345,
       "banners": 730,
       "editions": 496,
-      "maps_books": 160,
+      "maps_books": 161,
       "crops": 479,
       "spawn_eggs": 239
     }
@@ -56059,6 +56059,33 @@
       "page": "https://minecraft.wiki/w/woodland_mansion_map",
       "source": "wiki-discovery",
       "local": "icons/maps_books/woodland_mansion_map.png"
+    },
+    "cookie_chain": {
+      "title": "Cookie Chain",
+      "invicon": "Invicon_Cookie_Chain.png",
+      "ext": ".png",
+      "category": "food",
+      "page": "https://minecraft.wiki/w/cookie_chain",
+      "source": "wiki-discovery",
+      "local": "icons/food/cookie_chain.png"
+    },
+    "ocean_explorer_map_old": {
+      "title": "Ocean Explorer Map old",
+      "invicon": "Invicon_Ocean_Explorer_Map_old.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/ocean_explorer_map_old",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/ocean_explorer_map_old.png"
+    },
+    "stone_rocket": {
+      "title": "Stone Rocket",
+      "invicon": "Invicon_Stone_Rocket.png",
+      "ext": ".png",
+      "category": "blocks",
+      "page": "https://minecraft.wiki/w/stone_rocket",
+      "source": "wiki-discovery",
+      "local": "icons/blocks/stone_rocket.png"
     }
   }
 }
