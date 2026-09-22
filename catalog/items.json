@@ -1,11 +1,11 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-22",
   "counts": {
-    "catalog": 6188,
-    "wikiFilesScanned": 8052,
-    "downloaded": 6187,
+    "catalog": 6203,
+    "wikiFilesScanned": 8061,
+    "downloaded": 6202,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
@@ -17,10 +17,10 @@
       "blocks": 864,
       "variants": 164,
       "potions_dyes": 345,
-      "banners": 730,
+      "banners": 739,
       "editions": 496,
       "maps_books": 161,
-      "crops": 479,
+      "crops": 485,
       "spawn_eggs": 239
     }
   },
@@ -56086,6 +56086,141 @@
       "page": "https://minecraft.wiki/w/stone_rocket",
       "source": "wiki-discovery",
       "local": "icons/blocks/stone_rocket.png"
+    },
+    "bordure_indented_banner_pattern_revision_1": {
+      "title": "Bordure Indented Banner Pattern Revision 1",
+      "invicon": "Invicon_Bordure_Indented_Banner_Pattern_Revision_1.png",
+      "ext": ".png",
+      "category": "banners",
+      "page": "https://minecraft.wiki/w/bordure_indented_banner_pattern_revision_1",
+      "source": "wiki-discovery",
+      "local": "icons/banners/bordure_indented_banner_pattern_revision_1.png"
+    },
+    "creeper_charge_banner_pattern_revision_1": {
+      "title": "Creeper Charge Banner Pattern Revision 1",
+      "invicon": "Invicon_Creeper_Charge_Banner_Pattern_Revision_1.png",
+      "ext": ".png",
+      "category": "banners",
+      "page": "https://minecraft.wiki/w/creeper_charge_banner_pattern_revision_1",
+      "source": "wiki-discovery",
+      "local": "icons/banners/creeper_charge_banner_pattern_revision_1.png"
+    },
+    "field_masoned_banner_pattern_revision_1": {
+      "title": "Field Masoned Banner Pattern Revision 1",
+      "invicon": "Invicon_Field_Masoned_Banner_Pattern_Revision_1.png",
+      "ext": ".png",
+      "category": "banners",
+      "page": "https://minecraft.wiki/w/field_masoned_banner_pattern_revision_1",
+      "source": "wiki-discovery",
+      "local": "icons/banners/field_masoned_banner_pattern_revision_1.png"
+    },
+    "flow_banner_pattern_revision_1": {
+      "title": "Flow Banner Pattern Revision 1",
+      "invicon": "Invicon_Flow_Banner_Pattern_Revision_1.png",
+      "ext": ".png",
+      "category": "banners",
+      "page": "https://minecraft.wiki/w/flow_banner_pattern_revision_1",
+      "source": "wiki-discovery",
+      "local": "icons/banners/flow_banner_pattern_revision_1.png"
+    },
+    "flower_charge_banner_pattern_revision_1": {
+      "title": "Flower Charge Banner Pattern Revision 1",
+      "invicon": "Invicon_Flower_Charge_Banner_Pattern_Revision_1.png",
+      "ext": ".png",
+      "category": "banners",
+      "page": "https://minecraft.wiki/w/flower_charge_banner_pattern_revision_1",
+      "source": "wiki-discovery",
+      "local": "icons/banners/flower_charge_banner_pattern_revision_1.png"
+    },
+    "globe_banner_pattern_revision_1": {
+      "title": "Globe Banner Pattern Revision 1",
+      "invicon": "Invicon_Globe_Banner_Pattern_Revision_1.png",
+      "ext": ".png",
+      "category": "banners",
+      "page": "https://minecraft.wiki/w/globe_banner_pattern_revision_1",
+      "source": "wiki-discovery",
+      "local": "icons/banners/globe_banner_pattern_revision_1.png"
+    },
+    "guster_banner_pattern_revision_1": {
+      "title": "Guster Banner Pattern Revision 1",
+      "invicon": "Invicon_Guster_Banner_Pattern_Revision_1.png",
+      "ext": ".png",
+      "category": "banners",
+      "page": "https://minecraft.wiki/w/guster_banner_pattern_revision_1",
+      "source": "wiki-discovery",
+      "local": "icons/banners/guster_banner_pattern_revision_1.png"
+    },
+    "skull_charge_banner_pattern_revision_1": {
+      "title": "Skull Charge Banner Pattern Revision 1",
+      "invicon": "Invicon_Skull_Charge_Banner_Pattern_Revision_1.png",
+      "ext": ".png",
+      "category": "banners",
+      "page": "https://minecraft.wiki/w/skull_charge_banner_pattern_revision_1",
+      "source": "wiki-discovery",
+      "local": "icons/banners/skull_charge_banner_pattern_revision_1.png"
+    },
+    "thing_banner_pattern_revision_1": {
+      "title": "Thing Banner Pattern Revision 1",
+      "invicon": "Invicon_Thing_Banner_Pattern_Revision_1.png",
+      "ext": ".png",
+      "category": "banners",
+      "page": "https://minecraft.wiki/w/thing_banner_pattern_revision_1",
+      "source": "wiki-discovery",
+      "local": "icons/banners/thing_banner_pattern_revision_1.png"
+    },
+    "attached_stem_age_9_s_je2": {
+      "title": "Attached Stem Age 9 (S) JE2",
+      "invicon": "Attached_Stem_Age_9_(S)_JE2.png",
+      "ext": ".png",
+      "category": "crops",
+      "page": "https://minecraft.wiki/w/attached_stem_age_9_s_je2",
+      "source": "wiki-discovery",
+      "local": "icons/crops/attached_stem_age_9_s_je2.png"
+    },
+    "attached_stem_age_11_s_je2": {
+      "title": "Attached Stem Age 11 (S) JE2",
+      "invicon": "Attached_Stem_Age_11_(S)_JE2.png",
+      "ext": ".png",
+      "category": "crops",
+      "page": "https://minecraft.wiki/w/attached_stem_age_11_s_je2",
+      "source": "wiki-discovery",
+      "local": "icons/crops/attached_stem_age_11_s_je2.png"
+    },
+    "attached_stem_age_13_s_je2": {
+      "title": "Attached Stem Age 13 (S) JE2",
+      "invicon": "Attached_Stem_Age_13_(S)_JE2.png",
+      "ext": ".png",
+      "category": "crops",
+      "page": "https://minecraft.wiki/w/attached_stem_age_13_s_je2",
+      "source": "wiki-discovery",
+      "local": "icons/crops/attached_stem_age_13_s_je2.png"
+    },
+    "attached_stem_age_14_s_je2": {
+      "title": "Attached Stem Age 14 (S) JE2",
+      "invicon": "Attached_Stem_Age_14_(S)_JE2.png",
+      "ext": ".png",
+      "category": "crops",
+      "page": "https://minecraft.wiki/w/attached_stem_age_14_s_je2",
+      "source": "wiki-discovery",
+      "local": "icons/crops/attached_stem_age_14_s_je2.png"
+    },
+    "attached_stem_age_9_s_je1": {
+      "title": "Attached Stem Age 9 (S) JE1",
+      "invicon": "Attached_Stem_Age_9_(S)_JE1.png",
+      "ext": ".png",
+      "category": "crops",
+      "page": "https://minecraft.wiki/w/attached_stem_age_9_s_je1",
+      "source": "wiki-discovery",
+      "local": "icons/crops/attached_stem_age_9_s_je1.png"
+    },
+    "attached_stem_age_8_s_je2": {
+      "title": "Attached Stem Age 8 (S) JE2",
+      "invicon": "Attached_Stem_Age_8_(S)_JE2.png",
+      "ext": ".png",
+      "category": "crops",
+      "page": "https://minecraft.wiki/w/attached_stem_age_8_s_je2",
+      "source": "wiki-discovery",
+      "local": "icons/crops/attached_stem_age_8_s_je2.png"
     }
   }
 }
