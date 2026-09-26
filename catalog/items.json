@@ -1,22 +1,22 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-09-26",
   "counts": {
-    "catalog": 6203,
-    "wikiFilesScanned": 8061,
-    "downloaded": 6202,
+    "catalog": 6209,
+    "wikiFilesScanned": 8067,
+    "downloaded": 6208,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
       "materials": 191,
-      "tools_weapons": 311,
+      "tools_weapons": 312,
       "armor_trims": 587,
       "food": 175,
-      "items": 1445,
+      "items": 1446,
       "blocks": 864,
       "variants": 164,
-      "potions_dyes": 345,
+      "potions_dyes": 349,
       "banners": 739,
       "editions": 496,
       "maps_books": 161,
@@ -56221,6 +56221,60 @@
       "page": "https://minecraft.wiki/w/attached_stem_age_8_s_je2",
       "source": "wiki-discovery",
       "local": "icons/crops/attached_stem_age_8_s_je2.png"
+    },
+    "arrow_of_freezing": {
+      "title": "Arrow of Freezing",
+      "invicon": "Invicon_Arrow_of_Freezing.png",
+      "ext": ".png",
+      "category": "potions_dyes",
+      "page": "https://minecraft.wiki/w/arrow_of_freezing",
+      "source": "wiki-discovery",
+      "local": "icons/potions_dyes/arrow_of_freezing.png"
+    },
+    "giant_pickaxe": {
+      "title": "Giant Pickaxe",
+      "invicon": "Invicon_Giant_Pickaxe.png",
+      "ext": ".png",
+      "category": "tools_weapons",
+      "page": "https://minecraft.wiki/w/giant_pickaxe",
+      "source": "wiki-discovery",
+      "local": "icons/tools_weapons/giant_pickaxe.png"
+    },
+    "ice_ball": {
+      "title": "Ice Ball",
+      "invicon": "Invicon_Ice_Ball.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/ice_ball",
+      "source": "wiki-discovery",
+      "local": "icons/items/ice_ball.png"
+    },
+    "lingering_potion_of_freezing": {
+      "title": "Lingering Potion of Freezing",
+      "invicon": "Invicon_Lingering_Potion_of_Freezing.png",
+      "ext": ".png",
+      "category": "potions_dyes",
+      "page": "https://minecraft.wiki/w/lingering_potion_of_freezing",
+      "source": "wiki-discovery",
+      "local": "icons/potions_dyes/lingering_potion_of_freezing.png"
+    },
+    "potion_of_freezing": {
+      "title": "Potion of Freezing",
+      "invicon": "Invicon_Potion_of_Freezing.png",
+      "ext": ".png",
+      "category": "potions_dyes",
+      "page": "https://minecraft.wiki/w/potion_of_freezing",
+      "source": "wiki-discovery",
+      "local": "icons/potions_dyes/potion_of_freezing.png"
+    },
+    "splash_potion_of_freezing": {
+      "title": "Splash Potion of Freezing",
+      "invicon": "Invicon_Splash_Potion_of_Freezing.png",
+      "ext": ".png",
+      "category": "potions_dyes",
+      "page": "https://minecraft.wiki/w/splash_potion_of_freezing",
+      "source": "wiki-discovery",
+      "local": "icons/potions_dyes/splash_potion_of_freezing.png"
     }
   }
 }
