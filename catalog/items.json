@@ -1,19 +1,19 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-26",
+  "updatedAt": "2026-09-27",
   "counts": {
-    "catalog": 6209,
-    "wikiFilesScanned": 8067,
-    "downloaded": 6208,
+    "catalog": 6220,
+    "wikiFilesScanned": 8085,
+    "downloaded": 6219,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
       "materials": 191,
       "tools_weapons": 312,
-      "armor_trims": 587,
+      "armor_trims": 597,
       "food": 175,
-      "items": 1446,
+      "items": 1447,
       "blocks": 864,
       "variants": 164,
       "potions_dyes": 349,
@@ -56275,6 +56275,105 @@
       "page": "https://minecraft.wiki/w/splash_potion_of_freezing",
       "source": "wiki-discovery",
       "local": "icons/potions_dyes/splash_potion_of_freezing.png"
+    },
+    "amethyst_trim_shazboots": {
+      "title": "Amethyst Trim Shazboots!",
+      "invicon": "Invicon_Amethyst_Trim_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/amethyst_trim_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/amethyst_trim_shazboots.png"
+    },
+    "damaged_lashing_potato": {
+      "title": "Damaged Lashing Potato",
+      "invicon": "Invicon_Damaged_Lashing_Potato.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/damaged_lashing_potato",
+      "source": "wiki-discovery",
+      "local": "icons/items/damaged_lashing_potato.png"
+    },
+    "diamond_trim_shazboots": {
+      "title": "Diamond Trim Shazboots!",
+      "invicon": "Invicon_Diamond_Trim_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/diamond_trim_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/diamond_trim_shazboots.png"
+    },
+    "emerald_trim_shazboots": {
+      "title": "Emerald Trim Shazboots!",
+      "invicon": "Invicon_Emerald_Trim_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/emerald_trim_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/emerald_trim_shazboots.png"
+    },
+    "gold_trim_shazboots": {
+      "title": "Gold Trim Shazboots!",
+      "invicon": "Invicon_Gold_Trim_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/gold_trim_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/gold_trim_shazboots.png"
+    },
+    "iron_trim_shazboots": {
+      "title": "Iron Trim Shazboots!",
+      "invicon": "Invicon_Iron_Trim_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/iron_trim_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/iron_trim_shazboots.png"
+    },
+    "lapis_trim_shazboots": {
+      "title": "Lapis Trim Shazboots!",
+      "invicon": "Invicon_Lapis_Trim_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/lapis_trim_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/lapis_trim_shazboots.png"
+    },
+    "netherite_trim_shazboots": {
+      "title": "Netherite Trim Shazboots!",
+      "invicon": "Invicon_Netherite_Trim_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/netherite_trim_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/netherite_trim_shazboots.png"
+    },
+    "quartz_trim_shazboots": {
+      "title": "Quartz Trim Shazboots!",
+      "invicon": "Invicon_Quartz_Trim_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/quartz_trim_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/quartz_trim_shazboots.png"
+    },
+    "redstone_trim_shazboots": {
+      "title": "Redstone Trim Shazboots!",
+      "invicon": "Invicon_Redstone_Trim_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/redstone_trim_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/redstone_trim_shazboots.png"
+    },
+    "resin_trim_shazboots": {
+      "title": "Resin Trim Shazboots!",
+      "invicon": "Invicon_Resin_Trim_Shazboots!.png",
+      "ext": ".png",
+      "category": "armor_trims",
+      "page": "https://minecraft.wiki/w/resin_trim_shazboots",
+      "source": "wiki-discovery",
+      "local": "icons/armor_trims/resin_trim_shazboots.png"
     }
   }
 }
