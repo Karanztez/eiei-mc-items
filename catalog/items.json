@@ -1,10 +1,10 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-29",
   "counts": {
     "catalog": 6220,
-    "wikiFilesScanned": 8085,
+    "wikiFilesScanned": 8084,
     "downloaded": 6219,
     "animatedGifs": 112,
     "webpImages": 2,
