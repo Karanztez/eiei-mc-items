@@ -1,11 +1,11 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-29",
+  "updatedAt": "2026-09-30",
   "counts": {
-    "catalog": 6220,
-    "wikiFilesScanned": 8085,
-    "downloaded": 6219,
+    "catalog": 6224,
+    "wikiFilesScanned": 8087,
+    "downloaded": 6223,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
@@ -16,12 +16,12 @@
       "items": 1447,
       "blocks": 864,
       "variants": 164,
-      "potions_dyes": 349,
+      "potions_dyes": 350,
       "banners": 739,
-      "editions": 496,
+      "editions": 498,
       "maps_books": 161,
       "crops": 485,
-      "spawn_eggs": 239
+      "spawn_eggs": 240
     }
   },
   "items": {
@@ -56374,6 +56374,42 @@
       "page": "https://minecraft.wiki/w/resin_trim_shazboots",
       "source": "wiki-discovery",
       "local": "icons/armor_trims/resin_trim_shazboots.png"
+    },
+    "frostbite_spawn_egg": {
+      "title": "Frostbite Spawn Egg",
+      "invicon": "Invicon_Frostbite_Spawn_Egg.png",
+      "ext": ".png",
+      "category": "spawn_eggs",
+      "page": "https://minecraft.wiki/w/frostbite_spawn_egg",
+      "source": "wiki-discovery",
+      "local": "icons/spawn_eggs/frostbite_spawn_egg.png"
+    },
+    "arrow_of_freezing_be1": {
+      "title": "Arrow of Freezing BE1",
+      "invicon": "Arrow_of_Freezing_BE1.png",
+      "ext": ".png",
+      "category": "potions_dyes",
+      "page": "https://minecraft.wiki/w/arrow_of_freezing_be1",
+      "source": "wiki-discovery",
+      "local": "icons/potions_dyes/arrow_of_freezing_be1.png"
+    },
+    "ice_ball_be1": {
+      "title": "Ice Ball BE1",
+      "invicon": "Ice_Ball_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/ice_ball_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/ice_ball_be1.png"
+    },
+    "ice_crystal_item_be1": {
+      "title": "Ice Crystal (item) BE1",
+      "invicon": "Ice_Crystal_(item)_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/ice_crystal_item_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/ice_crystal_item_be1.png"
     }
   }
 }
