@@ -1,11 +1,11 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "counts": {
-    "catalog": 6224,
-    "wikiFilesScanned": 8087,
-    "downloaded": 6223,
+    "catalog": 6225,
+    "wikiFilesScanned": 8089,
+    "downloaded": 6224,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
@@ -19,7 +19,7 @@
       "potions_dyes": 350,
       "banners": 739,
       "editions": 498,
-      "maps_books": 161,
+      "maps_books": 162,
       "crops": 485,
       "spawn_eggs": 240
     }
@@ -56410,6 +56410,15 @@
       "page": "https://minecraft.wiki/w/ice_crystal_item_be1",
       "source": "wiki-discovery",
       "local": "icons/editions/ice_crystal_item_be1.png"
+    },
+    "disc_press": {
+      "title": "Disc Press",
+      "invicon": "Invicon_Disc_Press.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/disc_press",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/disc_press.png"
     }
   }
 }
