@@ -1,11 +1,11 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-06",
   "counts": {
-    "catalog": 6225,
-    "wikiFilesScanned": 8089,
-    "downloaded": 6224,
+    "catalog": 6227,
+    "wikiFilesScanned": 8091,
+    "downloaded": 6226,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
@@ -14,13 +14,13 @@
       "armor_trims": 597,
       "food": 175,
       "items": 1447,
-      "blocks": 864,
+      "blocks": 865,
       "variants": 164,
       "potions_dyes": 350,
       "banners": 739,
       "editions": 498,
       "maps_books": 162,
-      "crops": 485,
+      "crops": 486,
       "spawn_eggs": 240
     }
   },
@@ -56419,6 +56419,24 @@
       "page": "https://minecraft.wiki/w/disc_press",
       "source": "wiki-discovery",
       "local": "icons/maps_books/disc_press.png"
+    },
+    "micro_block": {
+      "title": "Micro Block",
+      "invicon": "Invicon_Micro_Block.png",
+      "ext": ".png",
+      "category": "blocks",
+      "page": "https://minecraft.wiki/w/micro_block",
+      "source": "wiki-discovery",
+      "local": "icons/blocks/micro_block.png"
+    },
+    "pitcher_crop_be": {
+      "title": "Pitcher Crop BE",
+      "invicon": "Invicon_Pitcher_Crop_BE.png",
+      "ext": ".png",
+      "category": "crops",
+      "page": "https://minecraft.wiki/w/pitcher_crop_be",
+      "source": "wiki-discovery",
+      "local": "icons/crops/pitcher_crop_be.png"
     }
   }
 }
