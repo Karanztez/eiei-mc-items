@@ -3,9 +3,9 @@
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
   "updatedAt": "2026-10-06",
   "counts": {
-    "catalog": 6227,
-    "wikiFilesScanned": 8091,
-    "downloaded": 6226,
+    "catalog": 6232,
+    "wikiFilesScanned": 8094,
+    "downloaded": 6231,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
@@ -16,9 +16,9 @@
       "items": 1447,
       "blocks": 865,
       "variants": 164,
-      "potions_dyes": 350,
+      "potions_dyes": 353,
       "banners": 739,
-      "editions": 498,
+      "editions": 500,
       "maps_books": 162,
       "crops": 486,
       "spawn_eggs": 240
@@ -56437,6 +56437,51 @@
       "page": "https://minecraft.wiki/w/pitcher_crop_be",
       "source": "wiki-discovery",
       "local": "icons/crops/pitcher_crop_be.png"
+    },
+    "arrow_of_freezing_je1": {
+      "title": "Arrow of Freezing JE1",
+      "invicon": "Arrow_of_Freezing_JE1.png",
+      "ext": ".png",
+      "category": "potions_dyes",
+      "page": "https://minecraft.wiki/w/arrow_of_freezing_je1",
+      "source": "wiki-discovery",
+      "local": "icons/potions_dyes/arrow_of_freezing_je1.png"
+    },
+    "ice_ball_je1_be1": {
+      "title": "Ice Ball JE1 BE1",
+      "invicon": "Ice_Ball_JE1_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/ice_ball_je1_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/ice_ball_je1_be1.png"
+    },
+    "ice_crystal_item_je1_be1": {
+      "title": "Ice Crystal (item) JE1 BE1",
+      "invicon": "Ice_Crystal_(item)_JE1_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/ice_crystal_item_je1_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/ice_crystal_item_je1_be1.png"
+    },
+    "potion_of_freezing_je1": {
+      "title": "Potion of Freezing JE1",
+      "invicon": "Potion_of_Freezing_JE1.png",
+      "ext": ".png",
+      "category": "potions_dyes",
+      "page": "https://minecraft.wiki/w/potion_of_freezing_je1",
+      "source": "wiki-discovery",
+      "local": "icons/potions_dyes/potion_of_freezing_je1.png"
+    },
+    "splash_potion_of_freezing_je1": {
+      "title": "Splash Potion of Freezing JE1",
+      "invicon": "Splash_Potion_of_Freezing_JE1.png",
+      "ext": ".png",
+      "category": "potions_dyes",
+      "page": "https://minecraft.wiki/w/splash_potion_of_freezing_je1",
+      "source": "wiki-discovery",
+      "local": "icons/potions_dyes/splash_potion_of_freezing_je1.png"
     }
   }
 }
