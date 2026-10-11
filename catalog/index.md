@@ -1,9 +1,9 @@
 # Item catalog
 
-Updated 2026-10-10
+Updated 2026-10-11
 
 - 6232 mapped items
-- 8094 wiki files scanned
+- 8048 wiki files scanned
 - 6231 local icons downloaded (112 animated GIFs, 2 WEBP)
 - Subfolders:
   - `icons/materials/`: 191 icons
