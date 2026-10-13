@@ -3,9 +3,9 @@
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
   "updatedAt": "2026-10-13",
   "counts": {
-    "catalog": 6232,
-    "wikiFilesScanned": 8019,
-    "downloaded": 6231,
+    "catalog": 6233,
+    "wikiFilesScanned": 8021,
+    "downloaded": 6232,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
@@ -16,7 +16,7 @@
       "items": 1447,
       "blocks": 865,
       "variants": 164,
-      "potions_dyes": 353,
+      "potions_dyes": 354,
       "banners": 739,
       "editions": 500,
       "maps_books": 162,
@@ -56482,6 +56482,15 @@
       "page": "https://minecraft.wiki/w/splash_potion_of_freezing_je1",
       "source": "wiki-discovery",
       "local": "icons/potions_dyes/splash_potion_of_freezing_je1.png"
+    },
+    "arrow_of_freezing_be2": {
+      "title": "Arrow of Freezing BE2",
+      "invicon": "Arrow_of_Freezing_BE2.png",
+      "ext": ".png",
+      "category": "potions_dyes",
+      "page": "https://minecraft.wiki/w/arrow_of_freezing_be2",
+      "source": "wiki-discovery",
+      "local": "icons/potions_dyes/arrow_of_freezing_be2.png"
     }
   }
 }
