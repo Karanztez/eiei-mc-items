@@ -1,6 +1,6 @@
 # Item catalog
 
-Updated 2026-10-17
+Updated 2026-10-18
 
 - 6233 mapped items
 - 8021 wiki files scanned
