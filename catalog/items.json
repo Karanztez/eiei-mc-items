@@ -1,11 +1,11 @@
 {
   "source": "https://minecraft.wiki/w/Item",
   "iconBase": "https://minecraft.wiki/w/Special:FilePath/",
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-20",
   "counts": {
-    "catalog": 6233,
-    "wikiFilesScanned": 8021,
-    "downloaded": 6232,
+    "catalog": 6287,
+    "wikiFilesScanned": 8075,
+    "downloaded": 6286,
     "animatedGifs": 112,
     "webpImages": 2,
     "byCategory": {
@@ -13,13 +13,13 @@
       "tools_weapons": 312,
       "armor_trims": 597,
       "food": 175,
-      "items": 1447,
-      "blocks": 865,
+      "items": 1465,
+      "blocks": 869,
       "variants": 164,
       "potions_dyes": 354,
       "banners": 739,
-      "editions": 500,
-      "maps_books": 162,
+      "editions": 518,
+      "maps_books": 176,
       "crops": 486,
       "spawn_eggs": 240
     }
@@ -56491,6 +56491,492 @@
       "page": "https://minecraft.wiki/w/arrow_of_freezing_be2",
       "source": "wiki-discovery",
       "local": "icons/potions_dyes/arrow_of_freezing_be2.png"
+    },
+    "black_pocket_jukebox": {
+      "title": "Black Pocket Jukebox",
+      "invicon": "Invicon_Black_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/black_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/black_pocket_jukebox.png"
+    },
+    "blank_disc": {
+      "title": "Blank Disc",
+      "invicon": "Invicon_Blank_Disc.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/blank_disc",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/blank_disc.png"
+    },
+    "blue_pocket_jukebox": {
+      "title": "Blue Pocket Jukebox",
+      "invicon": "Invicon_Blue_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/blue_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/blue_pocket_jukebox.png"
+    },
+    "brown_pocket_jukebox": {
+      "title": "Brown Pocket Jukebox",
+      "invicon": "Invicon_Brown_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/brown_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/brown_pocket_jukebox.png"
+    },
+    "chiseled_packed_ice": {
+      "title": "Chiseled Packed Ice",
+      "invicon": "Invicon_Chiseled_Packed_Ice.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/chiseled_packed_ice",
+      "source": "wiki-discovery",
+      "local": "icons/items/chiseled_packed_ice.png"
+    },
+    "cyan_pocket_jukebox": {
+      "title": "Cyan Pocket Jukebox",
+      "invicon": "Invicon_Cyan_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/cyan_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/cyan_pocket_jukebox.png"
+    },
+    "gray_pocket_jukebox": {
+      "title": "Gray Pocket Jukebox",
+      "invicon": "Invicon_Gray_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/gray_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/gray_pocket_jukebox.png"
+    },
+    "green_pocket_jukebox": {
+      "title": "Green Pocket Jukebox",
+      "invicon": "Invicon_Green_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/green_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/green_pocket_jukebox.png"
+    },
+    "light_blue_pocket_jukebox": {
+      "title": "Light Blue Pocket Jukebox",
+      "invicon": "Invicon_Light_Blue_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/light_blue_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/light_blue_pocket_jukebox.png"
+    },
+    "light_gray_pocket_jukebox": {
+      "title": "Light Gray Pocket Jukebox",
+      "invicon": "Invicon_Light_Gray_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/light_gray_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/light_gray_pocket_jukebox.png"
+    },
+    "lime_pocket_jukebox": {
+      "title": "Lime Pocket Jukebox",
+      "invicon": "Invicon_Lime_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/lime_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/lime_pocket_jukebox.png"
+    },
+    "magenta_pocket_jukebox": {
+      "title": "Magenta Pocket Jukebox",
+      "invicon": "Invicon_Magenta_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/magenta_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/magenta_pocket_jukebox.png"
+    },
+    "music_disc_beginning_2": {
+      "title": "Music Disc Beginning 2",
+      "invicon": "Invicon_Music_Disc_Beginning_2.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/music_disc_beginning_2",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/music_disc_beginning_2.png"
+    },
+    "music_disc_ebb": {
+      "title": "Music Disc Ebb",
+      "invicon": "Invicon_Music_Disc_Ebb.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/music_disc_ebb",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/music_disc_ebb.png"
+    },
+    "music_disc_floating_trees": {
+      "title": "Music Disc Floating Trees",
+      "invicon": "Invicon_Music_Disc_Floating_Trees.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/music_disc_floating_trees",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/music_disc_floating_trees.png"
+    },
+    "music_disc_home": {
+      "title": "Music Disc Home",
+      "invicon": "Invicon_Music_Disc_Home.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/music_disc_home",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/music_disc_home.png"
+    },
+    "music_disc_memories": {
+      "title": "Music Disc Memories",
+      "invicon": "Invicon_Music_Disc_Memories.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/music_disc_memories",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/music_disc_memories.png"
+    },
+    "music_disc_moog_city_2": {
+      "title": "Music Disc Moog City 2",
+      "invicon": "Invicon_Music_Disc_Moog_City_2.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/music_disc_moog_city_2",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/music_disc_moog_city_2.png"
+    },
+    "music_disc_mutation": {
+      "title": "Music Disc Mutation",
+      "invicon": "Invicon_Music_Disc_Mutation.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/music_disc_mutation",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/music_disc_mutation.png"
+    },
+    "music_disc_nightly": {
+      "title": "Music Disc Nightly",
+      "invicon": "Invicon_Music_Disc_Nightly.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/music_disc_nightly",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/music_disc_nightly.png"
+    },
+    "music_disc_shores": {
+      "title": "Music Disc Shores",
+      "invicon": "Invicon_Music_Disc_Shores.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/music_disc_shores",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/music_disc_shores.png"
+    },
+    "orange_pocket_jukebox": {
+      "title": "Orange Pocket Jukebox",
+      "invicon": "Invicon_Orange_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/orange_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/orange_pocket_jukebox.png"
+    },
+    "packed_ice_brick_slab": {
+      "title": "Packed Ice Brick Slab",
+      "invicon": "Invicon_Packed_Ice_Brick_Slab.png",
+      "ext": ".png",
+      "category": "blocks",
+      "page": "https://minecraft.wiki/w/packed_ice_brick_slab",
+      "source": "wiki-discovery",
+      "local": "icons/blocks/packed_ice_brick_slab.png"
+    },
+    "packed_ice_brick_stairs": {
+      "title": "Packed Ice Brick Stairs",
+      "invicon": "Invicon_Packed_Ice_Brick_Stairs.png",
+      "ext": ".png",
+      "category": "blocks",
+      "page": "https://minecraft.wiki/w/packed_ice_brick_stairs",
+      "source": "wiki-discovery",
+      "local": "icons/blocks/packed_ice_brick_stairs.png"
+    },
+    "packed_ice_brick_wall": {
+      "title": "Packed Ice Brick Wall",
+      "invicon": "Invicon_Packed_Ice_Brick_Wall.png",
+      "ext": ".png",
+      "category": "blocks",
+      "page": "https://minecraft.wiki/w/packed_ice_brick_wall",
+      "source": "wiki-discovery",
+      "local": "icons/blocks/packed_ice_brick_wall.png"
+    },
+    "packed_ice_bricks": {
+      "title": "Packed Ice Bricks",
+      "invicon": "Invicon_Packed_Ice_Bricks.png",
+      "ext": ".png",
+      "category": "blocks",
+      "page": "https://minecraft.wiki/w/packed_ice_bricks",
+      "source": "wiki-discovery",
+      "local": "icons/blocks/packed_ice_bricks.png"
+    },
+    "pink_pocket_jukebox": {
+      "title": "Pink Pocket Jukebox",
+      "invicon": "Invicon_Pink_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/pink_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/pink_pocket_jukebox.png"
+    },
+    "pocket_jukebox": {
+      "title": "Pocket Jukebox",
+      "invicon": "Invicon_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/pocket_jukebox.png"
+    },
+    "purple_pocket_jukebox": {
+      "title": "Purple Pocket Jukebox",
+      "invicon": "Invicon_Purple_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/purple_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/purple_pocket_jukebox.png"
+    },
+    "red_pocket_jukebox": {
+      "title": "Red Pocket Jukebox",
+      "invicon": "Invicon_Red_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/red_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/red_pocket_jukebox.png"
+    },
+    "track_disc": {
+      "title": "Track Disc",
+      "invicon": "Invicon_Track_Disc.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/track_disc",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/track_disc.png"
+    },
+    "white_pocket_jukebox": {
+      "title": "White Pocket Jukebox",
+      "invicon": "Invicon_White_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/white_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/white_pocket_jukebox.png"
+    },
+    "yellow_pocket_jukebox": {
+      "title": "Yellow Pocket Jukebox",
+      "invicon": "Invicon_Yellow_Pocket_Jukebox.png",
+      "ext": ".png",
+      "category": "items",
+      "page": "https://minecraft.wiki/w/yellow_pocket_jukebox",
+      "source": "wiki-discovery",
+      "local": "icons/items/yellow_pocket_jukebox.png"
+    },
+    "black_pocket_jukebox_be1": {
+      "title": "Black Pocket Jukebox BE1",
+      "invicon": "Black_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/black_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/black_pocket_jukebox_be1.png"
+    },
+    "blank_disc_be1": {
+      "title": "Blank Disc BE1",
+      "invicon": "Blank_Disc_BE1.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/blank_disc_be1",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/blank_disc_be1.png"
+    },
+    "blue_pocket_jukebox_be1": {
+      "title": "Blue Pocket Jukebox BE1",
+      "invicon": "Blue_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/blue_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/blue_pocket_jukebox_be1.png"
+    },
+    "brown_pocket_jukebox_be1": {
+      "title": "Brown Pocket Jukebox BE1",
+      "invicon": "Brown_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/brown_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/brown_pocket_jukebox_be1.png"
+    },
+    "cyan_pocket_jukebox_be1": {
+      "title": "Cyan Pocket Jukebox BE1",
+      "invicon": "Cyan_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/cyan_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/cyan_pocket_jukebox_be1.png"
+    },
+    "gray_pocket_jukebox_be1": {
+      "title": "Gray Pocket Jukebox BE1",
+      "invicon": "Gray_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/gray_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/gray_pocket_jukebox_be1.png"
+    },
+    "green_pocket_jukebox_be1": {
+      "title": "Green Pocket Jukebox BE1",
+      "invicon": "Green_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/green_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/green_pocket_jukebox_be1.png"
+    },
+    "light_blue_pocket_jukebox_be1": {
+      "title": "Light Blue Pocket Jukebox BE1",
+      "invicon": "Light_Blue_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/light_blue_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/light_blue_pocket_jukebox_be1.png"
+    },
+    "light_gray_pocket_jukebox_be1": {
+      "title": "Light Gray Pocket Jukebox BE1",
+      "invicon": "Light_Gray_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/light_gray_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/light_gray_pocket_jukebox_be1.png"
+    },
+    "lime_pocket_jukebox_be1": {
+      "title": "Lime Pocket Jukebox BE1",
+      "invicon": "Lime_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/lime_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/lime_pocket_jukebox_be1.png"
+    },
+    "magenta_pocket_jukebox_be1": {
+      "title": "Magenta Pocket Jukebox BE1",
+      "invicon": "Magenta_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/magenta_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/magenta_pocket_jukebox_be1.png"
+    },
+    "orange_pocket_jukebox_be1": {
+      "title": "Orange Pocket Jukebox BE1",
+      "invicon": "Orange_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/orange_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/orange_pocket_jukebox_be1.png"
+    },
+    "pink_pocket_jukebox_be1": {
+      "title": "Pink Pocket Jukebox BE1",
+      "invicon": "Pink_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/pink_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/pink_pocket_jukebox_be1.png"
+    },
+    "pocket_jukebox_be1": {
+      "title": "Pocket Jukebox BE1",
+      "invicon": "Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/pocket_jukebox_be1.png"
+    },
+    "pocket_jukebox_open_be1": {
+      "title": "Pocket Jukebox Open BE1",
+      "invicon": "Pocket_Jukebox_Open_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/pocket_jukebox_open_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/pocket_jukebox_open_be1.png"
+    },
+    "purple_pocket_jukebox_be1": {
+      "title": "Purple Pocket Jukebox BE1",
+      "invicon": "Purple_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/purple_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/purple_pocket_jukebox_be1.png"
+    },
+    "red_pocket_jukebox_be1": {
+      "title": "Red Pocket Jukebox BE1",
+      "invicon": "Red_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/red_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/red_pocket_jukebox_be1.png"
+    },
+    "track_disc_be1": {
+      "title": "Track Disc BE1",
+      "invicon": "Track_Disc_BE1.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/track_disc_be1",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/track_disc_be1.png"
+    },
+    "track_disc_white_be1": {
+      "title": "Track Disc White BE1",
+      "invicon": "Track_Disc_White_BE1.png",
+      "ext": ".png",
+      "category": "maps_books",
+      "page": "https://minecraft.wiki/w/track_disc_white_be1",
+      "source": "wiki-discovery",
+      "local": "icons/maps_books/track_disc_white_be1.png"
+    },
+    "white_pocket_jukebox_be1": {
+      "title": "White Pocket Jukebox BE1",
+      "invicon": "White_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/white_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/white_pocket_jukebox_be1.png"
+    },
+    "yellow_pocket_jukebox_be1": {
+      "title": "Yellow Pocket Jukebox BE1",
+      "invicon": "Yellow_Pocket_Jukebox_BE1.png",
+      "ext": ".png",
+      "category": "editions",
+      "page": "https://minecraft.wiki/w/yellow_pocket_jukebox_be1",
+      "source": "wiki-discovery",
+      "local": "icons/editions/yellow_pocket_jukebox_be1.png"
     }
   }
 }
